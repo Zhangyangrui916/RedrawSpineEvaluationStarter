@@ -1,0 +1,151 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import shutil
+import subprocess
+from pathlib import Path
+
+
+def run(command: list[str], *, expect_success: bool = True) -> subprocess.CompletedProcess[str]:
+    result = subprocess.run(command, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if expect_success and result.returncode != 0:
+        raise AssertionError(
+            f"Command failed ({result.returncode}): {' '.join(command)}\nstdout:\n{result.stdout}\nstderr:\n{result.stderr}"
+        )
+    if not expect_success and result.returncode == 0:
+        raise AssertionError(f"Command unexpectedly succeeded: {' '.join(command)}")
+    return result
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def render_pose(render: Path, case: Path, work: Path, animation: str, time: float, label: str) -> dict:
+    output = work / f"{label}.png"
+    stats = work / f"{label}.json"
+    run(
+        [
+            str(render),
+            "--skeleton",
+            str(case / "skeleton.json"),
+            "--atlas",
+            str(case / "skeleton.atlas"),
+            "--animation",
+            animation,
+            "--time",
+            str(time),
+            "--output",
+            str(output),
+            "--stats",
+            str(stats),
+            "--width",
+            "768",
+            "--height",
+            "596",
+            "--viewport-x",
+            "-1300",
+            "--viewport-y",
+            "-650",
+            "--viewport-width",
+            "2450",
+            "--viewport-height",
+            "1900",
+        ]
+    )
+    if not output.is_file() or output.stat().st_size < 1024:
+        raise AssertionError(f"Renderer did not create a plausible PNG: {output}")
+    values = json.loads(stats.read_text(encoding="utf-8"))
+    if values["draw_packets"] < 6:
+        raise AssertionError(f"Too few draw packets: {values}")
+    if values["nonzero_alpha_pixels"] < 5000:
+        raise AssertionError(f"Rendered frame is nearly blank: {values}")
+    left, top, right, bottom = values["bbox"]
+    if left <= 0 or top <= 0 or right >= 767 or bottom >= 595:
+        raise AssertionError(f"Rendered character touches the viewport boundary: {values}")
+    return values
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--render", type=Path, required=True)
+    parser.add_argument("--reconstruct", type=Path, required=True)
+    parser.add_argument("--case", type=Path, required=True)
+    parser.add_argument("--work", type=Path, required=True)
+    args = parser.parse_args()
+
+    if args.work.exists():
+        shutil.rmtree(args.work)
+    args.work.mkdir(parents=True)
+
+    animations = run(
+        [
+            str(args.render),
+            "--skeleton",
+            str(args.case / "skeleton.json"),
+            "--atlas",
+            str(args.case / "skeleton.atlas"),
+            "--list-animations",
+        ]
+    ).stdout.splitlines()
+    for required in ("00_Walk", "05_MagicAttack"):
+        if required not in animations:
+            raise AssertionError(f"Missing expected animation {required}: {animations}")
+
+    walk = render_pose(args.render, args.case, args.work, "00_Walk", 0.4, "walk")
+    magic = render_pose(args.render, args.case, args.work, "05_MagicAttack", 0.5, "magic")
+    if walk["nonzero_alpha_pixels"] == magic["nonzero_alpha_pixels"] and walk["bbox"] == magic["bbox"]:
+        raise AssertionError("Distinct poses produced indistinguishable render statistics")
+
+    invalid_output = args.work / "invalid.png"
+    run(
+        [
+            str(args.render),
+            "--skeleton",
+            str(args.case / "skeleton.json"),
+            "--atlas",
+            str(args.case / "skeleton.atlas"),
+            "--animation",
+            "does_not_exist",
+            "--output",
+            str(invalid_output),
+        ],
+        expect_success=False,
+    )
+    if invalid_output.exists():
+        raise AssertionError("Renderer left an output for an invalid animation")
+
+    reconstructed = args.work / "reconstructed"
+    run([str(args.reconstruct), "--case", str(args.case), "--output", str(reconstructed)])
+    source_pages = sorted((args.case / "source_attachments").glob("*.png"))
+    output_pages = sorted(reconstructed.glob("*.png"))
+    if [page.name for page in source_pages] != [page.name for page in output_pages]:
+        raise AssertionError("No-op reconstruction did not preserve the page set")
+    for source, output in zip(source_pages, output_pages):
+        if sha256(source) != sha256(output):
+            raise AssertionError(f"No-op reconstruction changed {source.name}")
+
+    print(
+        json.dumps(
+            {
+                "passed": True,
+                "animations": len(animations),
+                "source_pages": len(source_pages),
+                "walk": walk,
+                "magic": magic,
+            },
+            indent=2,
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
