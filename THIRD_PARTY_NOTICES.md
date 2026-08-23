@@ -7,7 +7,7 @@
 - Pinned revision: `b81e5a58ed38704aee4f866f0e0ac672623ce914`
 - License: `third_party/spine-runtimes/LICENSE`
 
-The Spine Runtimes license requires review before redistribution. Users integrating or modifying the runtime may need their own Spine Editor license.
+The required Spine Runtimes license and copyright notice are included with the vendored source.
 
 ## GLFW
 
@@ -27,4 +27,4 @@ The Spine Runtimes license requires review before redistribution. Users integrat
 
 ## Character Asset
 
-The public smoke character is derived from the local `月海水母制图师` asset. Its redistribution license has not yet been documented and must be resolved before publishing the starter.
+The evaluation character artwork is AI-generated and is included as part of this benchmark fixture.

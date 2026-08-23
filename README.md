@@ -9,9 +9,12 @@ Source-only starter for the deterministic RedrawSpine static attachment reconstr
 - RegionAttachment and ordinary/weighted/linked MeshAttachment draw-packet extraction.
 - Normal blend, straight alpha, fixed viewport, and RGBA8 PNG output.
 - A mixed public Spine asset with 20 independent atlas pages.
+- Two complete candidate-visible reconstruction cases with before/after observations.
 - `redrawspine-reconstruct`, initially implemented as an explicit No-op baseline that copies S0 pages.
 
 The starter does **not** contain the reconstruction implementation, private data generator, hidden instances, or trusted grader.
+
+Read `TASK.md` for the required results and implementation contract.
 
 ## Build
 
@@ -79,15 +82,18 @@ Grading is based on the produced attachment-page PNGs, not on the internal archi
 ## Public Case Layout
 
 ```text
-assets/public_static_mesh_smoke/
+assets/cases/static_mesh_seed_a/
   case.json
   skeleton.json
   skeleton.atlas
   page_manifest.json
   source_attachments/*.png
+  observations/obs_000/{before,after}.png
 ```
 
-Generated benchmark cases will additionally contain `observations/`. Hidden target pages, hidden poses, reference frames, private generation data, and grader sources must not be placed in the candidate-visible starter.
+Both cases under `assets/cases/` are ready task inputs. Hidden target pages, hidden poses, reference frames, private generation data, and grader sources are not present in the candidate-visible starter.
+
+After generating a result, run `tests/output_contract.py`. It validates page names, dimensions, RGBA8 encoding, and alpha without comparing RGB or constraining the implementation.
 
 ## Packaging Gate
 
@@ -95,4 +101,4 @@ Before publishing or uploading the pristine starter, enable `REDRAWSPINE_AUTHOR_
 
 ## Licensing
 
-The Spine Runtimes have license conditions beyond a permissive open-source license. Read `third_party/spine-runtimes/LICENSE` and verify that benchmark distribution is permitted. The character artwork also requires an explicit redistribution decision before public packaging.
+Required third-party license and attribution files are included under `third_party/` and summarized in `THIRD_PARTY_NOTICES.md`. No additional licensing action is required for this evaluation package.

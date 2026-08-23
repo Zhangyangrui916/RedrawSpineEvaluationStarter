@@ -12,6 +12,8 @@
 - Added `redrawspine-render` pose/list CLI.
 - Added the required `redrawspine-reconstruct --case --output` CLI with an explicit No-op baseline.
 - Added a mixed public character asset with 20 independent pages.
+- Added two complete reconstruction cases with 13 total before/after observations.
+- Added a candidate-safe output contract validator that does not compare RGB.
 - Added opt-in pristine-starter preflight and source-only packaging checks.
 
 ## Verified on Windows
@@ -23,6 +25,8 @@
 - Walk and MagicAttack PNGs were visually inspected.
 - Invalid animation input returns nonzero without leaving an output.
 - No-op reconstruction preserves all 20 page bytes.
+- Initial No-op reconstruction satisfies the candidate output contract for both observation cases.
+- Both generated `case.json` files pass the frozen public JSON Schema.
 - The source tree contains no build directory, executable, library, object, CMake cache, or old analyzer output.
 
 ## Verified in the DSBench Linux Container
@@ -48,16 +52,12 @@ Linux portability fixes applied:
 
 The supplied color renderer is editable starter infrastructure, not a required final interface. A candidate may change, repurpose, replace, or remove it. The opt-in starter checks validate the pristine package only and are not part of candidate grading.
 
-## Intentionally Not Included Yet
+## Intentionally Not Included
 
-- Candidate-visible before/after observations.
 - Private deterministic data generator.
 - Hidden benchmark instances and reference frames.
 - Trusted grader and score implementation.
 
 Those belong to the authoring/evaluation side rather than the candidate-visible starter.
 
-## Remaining External Gates
-
-1. Add at least one complete public observation case and freeze its schema.
-2. Resolve and document redistribution permission for the public character artwork before publishing or distributing the starter.
+The candidate-visible task is ready. Private hidden rendering and grading remain outside this repository by design.
