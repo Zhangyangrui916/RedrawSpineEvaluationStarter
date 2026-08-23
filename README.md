@@ -7,21 +7,19 @@ Source-only starter for the deterministic RedrawSpine static attachment reconstr
 - Official `spine-cpp` from the `spine-runtimes` 4.2 branch.
 - A hidden-window OpenGL 3.3 color forward renderer.
 - RegionAttachment and ordinary/weighted/linked MeshAttachment draw-packet extraction.
-- Normal blend, straight alpha, fixed viewport, RGBA8 PNG output.
+- Normal blend, straight alpha, fixed viewport, and RGBA8 PNG output.
 - A mixed public Spine asset with 20 independent atlas pages.
 - `redrawspine-reconstruct`, initially implemented as an explicit No-op baseline that copies S0 pages.
-- A public smoke test covering clean loading, two distinct poses, invalid input, and the No-op output contract.
 
-The starter deliberately does **not** include an attachment-ID/UV pass, screen-to-texel mapping, observation fusion, coverage logic, S1 generation, or the trusted grader.
+The starter does **not** contain the reconstruction implementation, private data generator, hidden instances, or trusted grader.
 
 ## Build
 
-Use a build directory outside the source tree when preparing the distributable starter:
+The benchmark intentionally ships no build products. Configure and compile it from source:
 
 ```bash
-cmake -S . -B /tmp/redrawspine-starter-build -G Ninja -DCMAKE_BUILD_TYPE=Release
-cmake --build /tmp/redrawspine-starter-build -j2
-ctest --test-dir /tmp/redrawspine-starter-build --output-on-failure
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j2
 ```
 
 Linux packages expected in the benchmark image:
@@ -30,9 +28,28 @@ Linux packages expected in the benchmark image:
 apt-get install -y build-essential cmake ninja-build libgl1-mesa-dev libegl1-mesa-dev libosmesa6
 ```
 
-The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native. Windows uses a hidden native WGL context.
+The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native. In the verified DSBench Debian 13 container, EGL initialization failed and the renderer successfully used OSMesa. Windows uses a hidden native WGL context.
 
-## Render A Pose
+## Validate the Pristine Starter Before Editing
+
+The repository contains opt-in checks for validating the **unmodified starter package**:
+
+```bash
+cmake -S . -B /tmp/redrawspine-starter-build \
+  -G Ninja -DCMAKE_BUILD_TYPE=Release \
+  -DREDRAWSPINE_AUTHOR_TESTS=ON
+cmake --build /tmp/redrawspine-starter-build -j2
+REDRAWSPINE_GL_BACKEND=osmesa \
+  ctest --test-dir /tmp/redrawspine-starter-build --output-on-failure
+```
+
+Run this once before implementation to confirm that source compilation, Spine asset loading, and headless rendering work in the current environment.
+
+These checks validate the supplied starting point only. Passing them does **not** mean the reconstruction task is solved. A valid candidate may modify, repurpose, replace, or remove the supplied color renderer, so these starter checks are not required to pass after implementation and are not part of grading.
+
+## Render a Pose
+
+The supplied renderer is editable example infrastructure:
 
 ```bash
 ./redrawspine-render \
@@ -45,13 +62,19 @@ The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_B
   --output out/walk.png --stats out/walk.json
 ```
 
-## Candidate CLI
+`redrawspine-render` is not a required final interface. Candidates may change its shaders, change its output format, replace its implementation, or stop using it entirely.
+
+## Candidate CLI and Grading Boundary
+
+The required external interface is:
 
 ```bash
 ./redrawspine-reconstruct --case <case_dir> --output <fresh_output_dir>
 ```
 
-The checked-in implementation copies `source_attachments/*.png` unchanged and should score as No-op. Candidates must replace that implementation with a deterministic multi-observation reconstruction method while preserving the CLI and output contract.
+The checked-in implementation copies `source_attachments/*.png` unchanged and therefore represents the No-op baseline. Candidates must replace it with a deterministic multi-observation reconstruction method while preserving the CLI and output-page contract.
+
+Grading is based on the produced attachment-page PNGs, not on the internal architecture. Candidates may modify the renderer, shaders, Spine integration, vendored runtime, build files, or use a different reconstruction approach.
 
 ## Public Case Layout
 
@@ -64,11 +87,11 @@ assets/public_static_mesh_smoke/
   source_attachments/*.png
 ```
 
-Generated benchmark cases will additionally contain `observations/`. Hidden S1 pages, hidden poses, reference frames, coverage data, and grader sources must not be placed in the candidate-visible starter.
+Generated benchmark cases will additionally contain `observations/`. Hidden target pages, hidden poses, reference frames, private generation data, and grader sources must not be placed in the candidate-visible starter.
 
 ## Packaging Gate
 
-Before upload, confirm the source directory has no `build/`, object files, libraries, executables, old outputs, hidden instances, or trusted-grader code. Build and test from a fresh external directory.
+Before publishing or uploading the pristine starter, enable `REDRAWSPINE_AUTHOR_TESTS` and confirm that the source directory has no `build/`, object files, libraries, executables, old outputs, hidden instances, or trusted-grader code. This packaging audit is an authoring check, not a candidate requirement.
 
 ## Licensing
 

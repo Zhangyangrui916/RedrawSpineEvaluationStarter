@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
+"""Validate the pristine starter before candidate implementation begins.
+
+This script intentionally verifies the checked-in No-op baseline as well as the
+forward renderer. It is an authoring/environment preflight, not a correctness
+test for candidate solutions. A valid reconstruction may change or replace the
+renderer and will no longer preserve the source-page hashes.
+"""
+
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
-import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -75,7 +82,9 @@ def render_pose(render: Path, case: Path, work: Path, animation: str, time: floa
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Validate the unmodified RedrawSpine starter package before implementation."
+    )
     parser.add_argument("--render", type=Path, required=True)
     parser.add_argument("--reconstruct", type=Path, required=True)
     parser.add_argument("--case", type=Path, required=True)
@@ -131,12 +140,13 @@ def main() -> None:
         raise AssertionError("No-op reconstruction did not preserve the page set")
     for source, output in zip(source_pages, output_pages):
         if sha256(source) != sha256(output):
-            raise AssertionError(f"No-op reconstruction changed {source.name}")
+            raise AssertionError(f"Pristine No-op baseline changed {source.name}")
 
     print(
         json.dumps(
             {
                 "passed": True,
+                "scope": "pristine-starter-preflight",
                 "animations": len(animations),
                 "source_pages": len(source_pages),
                 "walk": walk,

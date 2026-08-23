@@ -50,7 +50,7 @@ bool GlContext::tryCreate(const std::string &backend) {
     glfwTerminate();
 
 #if defined(__linux__)
-    glfwInitHint(GLFW_PLATFORM, backend == "native" ? GLFW_PLATFORM_ANY : GLFW_PLATFORM_NULL);
+    glfwInitHint(GLFW_PLATFORM, backend == "native" ? GLFW_ANY_PLATFORM : GLFW_PLATFORM_NULL);
 #endif
     if (!glfwInit()) return false;
 

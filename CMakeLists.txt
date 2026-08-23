@@ -5,7 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-option(REDRAWSPINE_BUILD_TESTS "Build public smoke tests" ON)
+option(
+    REDRAWSPINE_AUTHOR_TESTS
+    "Enable checks for validating the unmodified starter package"
+    OFF
+)
 
 if(MSVC)
     add_compile_options(/utf-8)
@@ -44,32 +48,39 @@ target_include_directories(spine-cpp PUBLIC
 add_library(redrawspine_forward STATIC
     src/gl_context.cpp
     src/renderer.cpp
-    src/spine_extension.cpp
     src/spine_asset.cpp
     src/texture_loader.cpp
 )
 target_include_directories(redrawspine_forward PUBLIC include)
 target_link_libraries(redrawspine_forward PUBLIC spine-cpp PRIVATE glad glfw stb OpenGL::GL)
 
-add_executable(redrawspine-render src/render_main.cpp)
+# getDefaultExtension() is an application integration point. Compile it into
+# the final executable instead of a static archive so GNU ld does not miss it
+# during its single-pass archive scan.
+add_executable(redrawspine-render
+    src/render_main.cpp
+    src/spine_extension.cpp
+)
 target_link_libraries(redrawspine-render PRIVATE redrawspine_forward)
 
 add_executable(redrawspine-reconstruct src/reconstruct_main.cpp)
 
-if(REDRAWSPINE_BUILD_TESTS)
+# These checks validate the pristine starter package. They are deliberately
+# opt-in: a valid candidate may repurpose or replace the supplied renderer.
+if(REDRAWSPINE_AUTHOR_TESTS)
     include(CTest)
     find_package(Python3 REQUIRED COMPONENTS Interpreter)
     add_test(
-        NAME public_smoke
+        NAME starter_preflight
         COMMAND ${Python3_EXECUTABLE}
             ${CMAKE_CURRENT_SOURCE_DIR}/tests/public_smoke.py
             --render $<TARGET_FILE:redrawspine-render>
             --reconstruct $<TARGET_FILE:redrawspine-reconstruct>
             --case ${CMAKE_CURRENT_SOURCE_DIR}/assets/public_static_mesh_smoke
-            --work ${CMAKE_CURRENT_BINARY_DIR}/public-smoke-output
+            --work ${CMAKE_CURRENT_BINARY_DIR}/starter-preflight-output
     )
     add_test(
-        NAME source_only_audit
+        NAME starter_source_only_audit
         COMMAND ${Python3_EXECUTABLE}
             ${CMAKE_CURRENT_SOURCE_DIR}/tests/source_only_audit.py
             --root ${CMAKE_CURRENT_SOURCE_DIR}
