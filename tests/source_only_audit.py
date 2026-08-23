@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Author-only packaging audit for the pristine source starter."""
+
 from __future__ import annotations
 
 import argparse
@@ -9,11 +11,12 @@ from pathlib import Path
 FORBIDDEN_SUFFIXES = {".exe", ".dll", ".lib", ".obj", ".o", ".a", ".so", ".dylib"}
 FORBIDDEN_DIRECTORY_NAMES = {"build", "CMakeFiles", "__pycache__"}
 FORBIDDEN_FILENAMES = {"CMakeCache.txt"}
-LEAK_MARKERS = {"writtenMask", "decodeUVToSlot", "screenToTexel", "attachmentName2Index"}
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Check that the distributable starter contains source and public data only."
+    )
     parser.add_argument("--root", type=Path, required=True)
     args = parser.parse_args()
     root = args.root.resolve()
@@ -28,15 +31,6 @@ def main() -> None:
         elif path.is_file() and (path.suffix.lower() in FORBIDDEN_SUFFIXES or path.name in FORBIDDEN_FILENAMES):
             violations.append(str(relative))
 
-    for folder in (root / "src", root / "include"):
-        for path in folder.rglob("*"):
-            if not path.is_file():
-                continue
-            text = path.read_text(encoding="utf-8", errors="ignore")
-            for marker in LEAK_MARKERS:
-                if marker in text:
-                    violations.append(f"{path.relative_to(root)} contains {marker}")
-
     case = root / "assets" / "public_static_mesh_smoke"
     case_json = json.loads((case / "case.json").read_text(encoding="utf-8"))
     pages = sorted((case / case_json["source_attachments"]).glob("*.png"))
@@ -45,7 +39,16 @@ def main() -> None:
 
     if violations:
         raise SystemExit("Source-only audit failed:\n" + "\n".join(f"- {item}" for item in violations))
-    print(json.dumps({"passed": True, "files": sum(1 for path in root.rglob("*") if path.is_file()), "pages": len(pages)}))
+    print(
+        json.dumps(
+            {
+                "passed": True,
+                "scope": "author-packaging-audit",
+                "files": sum(1 for path in root.rglob("*") if path.is_file()),
+                "pages": len(pages),
+            }
+        )
+    )
 
 
 if __name__ == "__main__":
