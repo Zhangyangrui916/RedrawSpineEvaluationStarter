@@ -27,13 +27,19 @@ cmake --build build -j2
 
 Ninja places executables under `build/`. Multi-config generators such as Visual Studio place Release executables under `build/Release/`.
 
-Linux packages expected in the benchmark image:
+### Windows
+
+Run the build from an **x64 Native Tools Command Prompt for VS 2022** or a Visual Studio Developer PowerShell. Confirm that `cmake`, `ninja`, and `cl` resolve before configuring. The developer environment supplies the MSVC compiler and SDK paths that are not available in a plain shell on every Windows installation.
+
+### Linux
+
+No special developer prompt is required. Install the compiler, build tools, and headless Mesa dependencies in a normal shell:
 
 ```bash
 apt-get install -y build-essential cmake ninja-build libgl1-mesa-dev libegl1-mesa-dev libosmesa6
 ```
 
-The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native. Windows uses a hidden native WGL context.
+Confirm that `cmake`, `ninja`, and `c++` resolve, then use the same Ninja commands above. The vendored GLFW 3.4 build disables X11 and Wayland. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native; set `REDRAWSPINE_GL_BACKEND=osmesa` when a headless run should require that backend. Windows uses a hidden native WGL context.
 
 ## Optional Pristine Preflight
 

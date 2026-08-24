@@ -64,33 +64,19 @@ python tests/output_contract.py \
   --output results/static_mesh_seed_a
 ```
 
-## Hidden Scoring Contract
+## Hidden Evaluation
 
-For each final case, the authoring renderer computes a trusted texture-space support mask from all public observations. It accepts stable topmost attachment ownership and records the complete 2x2 bilinear texel footprint. Candidate RGB outside this reliable public-observation support is restored to S0 in a temporary grading copy. The submitted files are not modified.
+The grader renders the submitted static pages at undisclosed poses using the original supplied skeleton and atlas mapping.
 
-The trusted renderer then renders undisclosed poses with the original skeleton and the temporary candidate pages. For each hidden frame:
+Scoring is based on render-space similarity to the hidden target skin. RGB in regions that the public observations do not reliably constrain is neutralized before rendering, so candidates are not rewarded or penalized for a particular completion or flood choice there. The submitted files are not modified.
 
-```text
-candidate_distance = mean absolute RGBA8 distance(candidate, reference) / 255
-noop_distance      = mean absolute RGBA8 distance(S0, reference) / 255
-quality            = clamp(1 - candidate_distance / noop_distance, 0, 1)
-```
+Scores are normalized so that copying S0 is approximately 0 and reproducing the target renders is 1. Both final cases and consistently weak poses contribute to the result. The resolved threshold for this local calibration task is `0.9`.
 
-A case score is:
-
-```text
-0.8 * mean(frame qualities) + 0.2 * mean(bottom 20% frame qualities)
-```
-
-The final score is the mean of the two case scores. The resolved threshold for this local calibration task is `0.9`. Final scoring is run once after completion; there is no queryable final score during development.
-
-Candidate-generated masks may be useful diagnostics, but they do not define the final grading support.
+Final evaluation is run once after completion; there is no queryable final score during development. Candidate-generated masks may be useful diagnostics, but they do not define the grading region.
 
 ## Forward Semantics
 
 The supplied renderer source is the authoritative forward convention even if you replace its implementation. Cases use the viewport and render size in `case.json`, pixel-center rasterization, GL_LINEAR texture filtering, clamp-to-edge, straight alpha, normal blending, RGBA8 output, no mipmaps, no sRGB conversion, no MSAA, and no dithering. PNG readback is top-down after the renderer's vertical flip.
-
-`before.png` is generated from known S0 with these same semantics and can be used to validate projection, UV, draw order, filtering, and readback orientation.
 
 ## Implementation Freedom
 

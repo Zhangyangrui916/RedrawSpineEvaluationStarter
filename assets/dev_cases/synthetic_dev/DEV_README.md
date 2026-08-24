@@ -8,6 +8,10 @@ This directory is a calibration fixture, not a final scored case.
 2. Produce static pages with the same CLI and output contract as a final case.
 3. Use `oracle/` only after reconstruction to diagnose page and render-space errors.
 
+Each `observations/*/before.png` was rendered from `source_attachments/` (S0) with the supplied renderer, using the
+skeleton, animation pose, viewport, and render size recorded in `case.json`. The paired `after.png` uses the same
+settings and the fixed development target skin S1.
+
 The target pages are intentionally public here. Copying or hardcoding them does not help on final cases,
 which use different target seeds and do not expose S1 or validation references.
 

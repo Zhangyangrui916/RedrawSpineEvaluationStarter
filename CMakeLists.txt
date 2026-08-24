@@ -68,7 +68,11 @@ add_executable(redrawspine-render
 )
 target_link_libraries(redrawspine-render PRIVATE redrawspine_forward)
 
-add_executable(redrawspine-reconstruct src/reconstruct_main.cpp)
+add_executable(redrawspine-reconstruct
+    src/reconstruct_main.cpp
+    src/spine_extension.cpp
+)
+target_link_libraries(redrawspine-reconstruct PRIVATE redrawspine_forward stb)
 
 # Pristine starter checks are opt-in because a valid candidate may repurpose or
 # replace the supplied renderer after running the environment preflight.
