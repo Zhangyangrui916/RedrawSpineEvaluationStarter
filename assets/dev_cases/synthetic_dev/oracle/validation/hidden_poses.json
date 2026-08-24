@@ -1,0 +1,102 @@
+[
+  {
+    "id": "hidden_000",
+    "animation": "00_Walk",
+    "time": 0.2,
+    "noop_distance": 0.009983336071270613,
+    "changed_render_pixels": 417209,
+    "noop": "noop_frames/frame_000.png",
+    "reference": "reference_frames/frame_000.png",
+    "source_pose_id": "pose_001"
+  },
+  {
+    "id": "hidden_001",
+    "animation": "00_Walk",
+    "time": 0.6,
+    "noop_distance": 0.01045062593458436,
+    "changed_render_pixels": 432737,
+    "noop": "noop_frames/frame_001.png",
+    "reference": "reference_frames/frame_001.png",
+    "source_pose_id": "pose_003"
+  },
+  {
+    "id": "hidden_002",
+    "animation": "01_Dance2",
+    "time": 0.4,
+    "noop_distance": 0.011453193698532045,
+    "changed_render_pixels": 443767,
+    "noop": "noop_frames/frame_002.png",
+    "reference": "reference_frames/frame_002.png",
+    "source_pose_id": "pose_007"
+  },
+  {
+    "id": "hidden_003",
+    "animation": "01_Dance2",
+    "time": 1.3333,
+    "noop_distance": 0.01077470735662686,
+    "changed_render_pixels": 402495,
+    "noop": "noop_frames/frame_003.png",
+    "reference": "reference_frames/frame_003.png",
+    "source_pose_id": "pose_012"
+  },
+  {
+    "id": "hidden_004",
+    "animation": "05_MagicAttack",
+    "time": 0.6,
+    "noop_distance": 0.012649192729723467,
+    "changed_render_pixels": 492045,
+    "noop": "noop_frames/frame_004.png",
+    "reference": "reference_frames/frame_004.png",
+    "source_pose_id": "pose_016"
+  },
+  {
+    "id": "hidden_005",
+    "animation": "05_MagicAttack",
+    "time": 0.8,
+    "noop_distance": 0.011655821275878771,
+    "changed_render_pixels": 469934,
+    "noop": "noop_frames/frame_005.png",
+    "reference": "reference_frames/frame_005.png",
+    "source_pose_id": "pose_017"
+  },
+  {
+    "id": "hidden_006",
+    "animation": "08_SwordAttack",
+    "time": 0.4,
+    "noop_distance": 0.010863873338809208,
+    "changed_render_pixels": 447107,
+    "noop": "noop_frames/frame_006.png",
+    "reference": "reference_frames/frame_006.png",
+    "source_pose_id": "pose_020"
+  },
+  {
+    "id": "hidden_007",
+    "animation": "08_SwordAttack",
+    "time": 0.6,
+    "noop_distance": 0.010609305616983635,
+    "changed_render_pixels": 435802,
+    "noop": "noop_frames/frame_007.png",
+    "reference": "reference_frames/frame_007.png",
+    "source_pose_id": "pose_021"
+  },
+  {
+    "id": "hidden_008",
+    "animation": "09_Interactive",
+    "time": 0.0,
+    "noop_distance": 0.008551903919462521,
+    "changed_render_pixels": 377153,
+    "noop": "noop_frames/frame_008.png",
+    "reference": "reference_frames/frame_008.png",
+    "source_pose_id": "pose_023"
+  },
+  {
+    "id": "hidden_009",
+    "animation": "09_Interactive",
+    "time": 1.6,
+    "noop_distance": 0.008551903919462521,
+    "changed_render_pixels": 377153,
+    "noop": "noop_frames/frame_009.png",
+    "reference": "reference_frames/frame_009.png",
+    "source_pose_id": "pose_031"
+  }
+]

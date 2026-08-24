@@ -9,14 +9,14 @@
     {
       "id": "obs_000",
       "animation": "05_MagicAttack",
-      "time": 0.5,
+      "time": 0.4,
       "before": "observations/obs_000/before.png",
       "after": "observations/obs_000/after.png"
     },
     {
       "id": "obs_001",
       "animation": "01_Dance2",
-      "time": 1.1,
+      "time": 0.3,
       "before": "observations/obs_001/before.png",
       "after": "observations/obs_001/after.png"
     },
@@ -29,22 +29,22 @@
     },
     {
       "id": "obs_003",
-      "animation": "01_Dance2",
-      "time": 1.0,
+      "animation": "05_MagicAttack",
+      "time": 0.2,
       "before": "observations/obs_003/before.png",
       "after": "observations/obs_003/after.png"
     },
     {
       "id": "obs_004",
       "animation": "05_MagicAttack",
-      "time": 0.7,
+      "time": 0.3,
       "before": "observations/obs_004/before.png",
       "after": "observations/obs_004/after.png"
     },
     {
       "id": "obs_005",
-      "animation": "01_Dance2",
-      "time": 1.2,
+      "animation": "09_Interactive",
+      "time": 1.0,
       "before": "observations/obs_005/before.png",
       "after": "observations/obs_005/after.png"
     }
@@ -56,8 +56,8 @@
     "height": 1900.0
   },
   "render_size": {
-    "width": 768,
-    "height": 596
+    "width": 2450,
+    "height": 1900
   },
   "output_pages": [
     {

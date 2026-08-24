@@ -6,8 +6,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(
+    REDRAWSPINE_STARTER_TESTS
+    "Enable the candidate-visible pristine starter preflight"
+    OFF
+)
+option(
     REDRAWSPINE_AUTHOR_TESTS
-    "Enable checks for validating the unmodified starter package"
+    "Enable the maintainer-only source packaging audit"
     OFF
 )
 
@@ -65,11 +70,14 @@ target_link_libraries(redrawspine-render PRIVATE redrawspine_forward)
 
 add_executable(redrawspine-reconstruct src/reconstruct_main.cpp)
 
-# These checks validate the pristine starter package. They are deliberately
-# opt-in: a valid candidate may repurpose or replace the supplied renderer.
-if(REDRAWSPINE_AUTHOR_TESTS)
+# Pristine starter checks are opt-in because a valid candidate may repurpose or
+# replace the supplied renderer after running the environment preflight.
+if(REDRAWSPINE_STARTER_TESTS OR REDRAWSPINE_AUTHOR_TESTS)
     include(CTest)
     find_package(Python3 REQUIRED COMPONENTS Interpreter)
+endif()
+
+if(REDRAWSPINE_STARTER_TESTS)
     add_test(
         NAME starter_preflight
         COMMAND ${Python3_EXECUTABLE}
@@ -79,6 +87,9 @@ if(REDRAWSPINE_AUTHOR_TESTS)
             --case ${CMAKE_CURRENT_SOURCE_DIR}/assets/public_static_mesh_smoke
             --work ${CMAKE_CURRENT_BINARY_DIR}/starter-preflight-output
     )
+endif()
+
+if(REDRAWSPINE_AUTHOR_TESTS)
     add_test(
         NAME starter_source_only_audit
         COMMAND ${Python3_EXECUTABLE}

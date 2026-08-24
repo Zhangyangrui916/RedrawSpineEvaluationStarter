@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "case_id": "synthetic_dev",
+  "candidate_input": "case.json",
+  "target_attachments": "oracle/target_attachments",
+  "target_atlas": "oracle/target.atlas",
+  "validation_manifest": "oracle/validation/hidden_poses.json",
+  "validation_poses": 10,
+  "purpose": "public-development-oracle",
+  "final_cases_expose_target_attachments": false
+}

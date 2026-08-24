@@ -15,15 +15,15 @@
     },
     {
       "id": "obs_001",
-      "animation": "01_Dance",
-      "time": 0.7,
+      "animation": "07_StatusEffect",
+      "time": 1.4,
       "before": "observations/obs_001/before.png",
       "after": "observations/obs_001/after.png"
     },
     {
       "id": "obs_002",
-      "animation": "07_StatusEffect",
-      "time": 1.4,
+      "animation": "01_Dance",
+      "time": 0.4,
       "before": "observations/obs_002/before.png",
       "after": "observations/obs_002/after.png"
     },
@@ -36,22 +36,22 @@
     },
     {
       "id": "obs_004",
-      "animation": "01_Dance",
-      "time": 0.4,
+      "animation": "04_Jumpping",
+      "time": 1.0,
       "before": "observations/obs_004/before.png",
       "after": "observations/obs_004/after.png"
     },
     {
       "id": "obs_005",
-      "animation": "07_StatusEffect",
-      "time": 1.1,
+      "animation": "01_Dance",
+      "time": 0.8,
       "before": "observations/obs_005/before.png",
       "after": "observations/obs_005/after.png"
     },
     {
       "id": "obs_006",
-      "animation": "01_Dance",
-      "time": 0.5,
+      "animation": "07_StatusEffect",
+      "time": 0.6,
       "before": "observations/obs_006/before.png",
       "after": "observations/obs_006/after.png"
     }
@@ -63,8 +63,8 @@
     "height": 1900.0
   },
   "render_size": {
-    "width": 768,
-    "height": 596
+    "width": 2450,
+    "height": 1900
   },
   "output_pages": [
     {

@@ -2,28 +2,30 @@
 
 Source-only starter for the deterministic RedrawSpine static attachment reconstruction benchmark.
 
+Read `TASK.md` first. It defines required outputs, public development data, trusted-support canonicalization, and the hidden render-space score.
+
 ## Included
 
 - Official `spine-cpp` from the `spine-runtimes` 4.2 branch.
-- A hidden-window OpenGL 3.3 color forward renderer.
+- A hidden-window OpenGL 3.3 reference color renderer.
 - RegionAttachment and ordinary/weighted/linked MeshAttachment draw-packet extraction.
 - Normal blend, straight alpha, fixed viewport, and RGBA8 PNG output.
-- A mixed public Spine asset with 20 independent atlas pages.
-- Two complete candidate-visible reconstruction cases with before/after observations.
-- `redrawspine-reconstruct`, initially implemented as an explicit No-op baseline that copies S0 pages.
+- Two final 1:1 observation cases with 20 independent pages each.
+- A fully public `synthetic_dev` oracle with S1 pages and validation references.
+- `redrawspine-reconstruct`, initially an explicit No-op baseline that copies S0.
 
-The starter does **not** contain the reconstruction implementation, private data generator, hidden instances, or trusted grader.
-
-Read `TASK.md` for the required results and implementation contract.
+The starter does not contain final S1 pages, final trusted support masks, final hidden poses, final reference frames, the private generator, or the trusted grader.
 
 ## Build
 
-The benchmark intentionally ships no build products. Configure and compile it from source:
+The benchmark ships no build products. With Ninja:
 
 ```bash
 cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j2
 ```
+
+Ninja places executables under `build/`. Multi-config generators such as Visual Studio place Release executables under `build/Release/`.
 
 Linux packages expected in the benchmark image:
 
@@ -31,31 +33,29 @@ Linux packages expected in the benchmark image:
 apt-get install -y build-essential cmake ninja-build libgl1-mesa-dev libegl1-mesa-dev libosmesa6
 ```
 
-The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native. In the verified DSBench Debian 13 container, EGL initialization failed and the renderer successfully used OSMesa. Windows uses a hidden native WGL context.
+The vendored GLFW 3.4 build disables X11 and Wayland on Linux. `REDRAWSPINE_GL_BACKEND=auto` tries null-platform EGL, then OSMesa, then native. Windows uses a hidden native WGL context.
 
-## Validate the Pristine Starter Before Editing
+## Optional Pristine Preflight
 
-The repository contains opt-in checks for validating the **unmodified starter package**:
+Before editing, use a separate build directory to confirm source compilation, Spine loading, headless rendering, and the checked-in No-op baseline:
 
 ```bash
-cmake -S . -B /tmp/redrawspine-starter-build \
+cmake -S . -B /tmp/redrawspine-starter-preflight \
   -G Ninja -DCMAKE_BUILD_TYPE=Release \
-  -DREDRAWSPINE_AUTHOR_TESTS=ON
-cmake --build /tmp/redrawspine-starter-build -j2
+  -DREDRAWSPINE_STARTER_TESTS=ON
+cmake --build /tmp/redrawspine-starter-preflight -j2
 REDRAWSPINE_GL_BACKEND=osmesa \
-  ctest --test-dir /tmp/redrawspine-starter-build --output-on-failure
+  ctest --test-dir /tmp/redrawspine-starter-preflight --output-on-failure
 ```
 
-Run this once before implementation to confirm that source compilation, Spine asset loading, and headless rendering work in the current environment.
-
-These checks validate the supplied starting point only. Passing them does **not** mean the reconstruction task is solved. A valid candidate may modify, repurpose, replace, or remove the supplied color renderer, so these starter checks are not required to pass after implementation and are not part of grading.
+This preflight validates the unmodified starting point only and is not part of final grading. Maintainer packaging audits use the separate `REDRAWSPINE_AUTHOR_TESTS` option and are not candidate instructions.
 
 ## Render a Pose
 
-The supplied renderer is editable example infrastructure:
+The supplied renderer is editable reference infrastructure:
 
 ```bash
-./redrawspine-render \
+./build/redrawspine-render \
   --skeleton assets/public_static_mesh_smoke/skeleton.json \
   --atlas assets/public_static_mesh_smoke/skeleton.atlas \
   --animation 00_Walk --time 0.4 \
@@ -65,24 +65,27 @@ The supplied renderer is editable example infrastructure:
   --output out/walk.png --stats out/walk.json
 ```
 
-`redrawspine-render` is not a required final interface. Candidates may change its shaders, change its output format, replace its implementation, or stop using it entirely.
+Candidates may change or replace this executable, but replacements must reproduce the forward semantics relevant to their reconstruction.
 
-## Candidate CLI and Grading Boundary
+## Candidate CLI
 
-The required external interface is:
+The required interface is:
 
 ```bash
-./redrawspine-reconstruct --case <case_dir> --output <fresh_output_dir>
+./build/redrawspine-reconstruct --case <case_dir> --output <fresh_output_dir>
 ```
 
-The checked-in implementation copies `source_attachments/*.png` unchanged and therefore represents the No-op baseline. Candidates must replace it with a deterministic multi-observation reconstruction method while preserving the CLI and output-page contract.
+The checked-in implementation copies `source_attachments/*.png` unchanged. Replace it with a deterministic multi-observation method while preserving the CLI and output-page contract.
 
-Grading is based on the produced attachment-page PNGs, not on the internal architecture. Candidates may modify the renderer, shaders, Spine integration, vendored runtime, build files, or use a different reconstruction approach.
+Grading consumes produced attachment-page PNGs, not candidate architecture. Build files, shaders, candidate Spine integration, and internal tools may be changed.
 
-## Public Case Layout
+## Public Data
+
+Final task inputs:
 
 ```text
 assets/cases/static_mesh_seed_a/
+assets/cases/static_mesh_seed_b/
   case.json
   skeleton.json
   skeleton.atlas
@@ -91,14 +94,21 @@ assets/cases/static_mesh_seed_a/
   observations/obs_000/{before,after}.png
 ```
 
-Both cases under `assets/cases/` are ready task inputs. Hidden target pages, hidden poses, reference frames, private generation data, and grader sources are not present in the candidate-visible starter.
+Development oracle:
 
-After generating a result, run `tests/output_contract.py`. It validates page names, dimensions, RGBA8 encoding, and alpha without comparing RGB or constraining the implementation.
+```text
+assets/dev_cases/synthetic_dev/
+  case.json
+  source_attachments/
+  observations/
+  oracle/target_attachments/
+  oracle/validation/
+```
 
-## Packaging Gate
+The development target is public by design and never used as a final case. See its `DEV_README.md` for the intended workflow.
 
-Before publishing or uploading the pristine starter, enable `REDRAWSPINE_AUTHOR_TESTS` and confirm that the source directory has no `build/`, object files, libraries, executables, old outputs, hidden instances, or trusted-grader code. This packaging audit is an authoring check, not a candidate requirement.
+After generating final results, run `tests/output_contract.py`. It validates names, dimensions, non-interlaced RGBA8 encoding, and alpha without comparing RGB.
 
 ## Licensing
 
-Required third-party license and attribution files are included under `third_party/` and summarized in `THIRD_PARTY_NOTICES.md`. No additional licensing action is required for this evaluation package.
+Required third-party licenses and attributions are included under `third_party/` and summarized in `THIRD_PARTY_NOTICES.md`.
