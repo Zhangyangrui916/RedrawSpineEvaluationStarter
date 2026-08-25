@@ -1,0 +1,86 @@
+[
+  {
+    "id": "validation_000",
+    "animation": "action",
+    "time": 0.1,
+    "noop": "noop_frames/frame_000.png",
+    "reference": "reference_frames/frame_000.png"
+  },
+  {
+    "id": "validation_001",
+    "animation": "action",
+    "time": 1.0,
+    "noop": "noop_frames/frame_001.png",
+    "reference": "reference_frames/frame_001.png"
+  },
+  {
+    "id": "validation_002",
+    "animation": "action",
+    "time": 2.0,
+    "noop": "noop_frames/frame_002.png",
+    "reference": "reference_frames/frame_002.png"
+  },
+  {
+    "id": "validation_003",
+    "animation": "action",
+    "time": 3.5,
+    "noop": "noop_frames/frame_003.png",
+    "reference": "reference_frames/frame_003.png"
+  },
+  {
+    "id": "validation_004",
+    "animation": "action",
+    "time": 4.5,
+    "noop": "noop_frames/frame_004.png",
+    "reference": "reference_frames/frame_004.png"
+  },
+  {
+    "id": "validation_005",
+    "animation": "angry",
+    "time": 0.4,
+    "noop": "noop_frames/frame_005.png",
+    "reference": "reference_frames/frame_005.png"
+  },
+  {
+    "id": "validation_006",
+    "animation": "angry",
+    "time": 1.0,
+    "noop": "noop_frames/frame_006.png",
+    "reference": "reference_frames/frame_006.png"
+  },
+  {
+    "id": "validation_007",
+    "animation": "idle",
+    "time": 0.4,
+    "noop": "noop_frames/frame_007.png",
+    "reference": "reference_frames/frame_007.png"
+  },
+  {
+    "id": "validation_008",
+    "animation": "idle",
+    "time": 0.8,
+    "noop": "noop_frames/frame_008.png",
+    "reference": "reference_frames/frame_008.png"
+  },
+  {
+    "id": "validation_009",
+    "animation": "delight",
+    "time": 0.5,
+    "noop": "noop_frames/frame_009.png",
+    "reference": "reference_frames/frame_009.png"
+  },
+  {
+    "id": "validation_010",
+    "animation": "shy",
+    "time": 0.5,
+    "noop": "noop_frames/frame_010.png",
+    "reference": "reference_frames/frame_010.png"
+  },
+  {
+    "id": "validation_011",
+    "animation": "surprise",
+    "time": 0.5,
+    "noop": "noop_frames/frame_011.png",
+    "reference": "reference_frames/frame_011.png"
+  }
+]

@@ -36,7 +36,9 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def render_pose(render: Path, case: Path, work: Path, animation: str, time: float, label: str) -> dict:
+def render_pose(
+    render: Path, case: Path, case_config: dict, work: Path, animation: str, time: float, label: str
+) -> dict:
     output = work / f"{label}.png"
     stats = work / f"{label}.json"
     run(
@@ -55,28 +57,30 @@ def render_pose(render: Path, case: Path, work: Path, animation: str, time: floa
             "--stats",
             str(stats),
             "--width",
-            "768",
+            str(case_config["render_size"]["width"]),
             "--height",
-            "596",
+            str(case_config["render_size"]["height"]),
             "--viewport-x",
-            "-1300",
+            str(case_config["viewport"]["x"]),
             "--viewport-y",
-            "-650",
+            str(case_config["viewport"]["y"]),
             "--viewport-width",
-            "2450",
+            str(case_config["viewport"]["width"]),
             "--viewport-height",
-            "1900",
+            str(case_config["viewport"]["height"]),
         ]
     )
     if not output.is_file() or output.stat().st_size < 1024:
         raise AssertionError(f"Renderer did not create a plausible PNG: {output}")
     values = json.loads(stats.read_text(encoding="utf-8"))
-    if values["draw_packets"] < 6:
+    if values["draw_packets"] < 100:
         raise AssertionError(f"Too few draw packets: {values}")
-    if values["nonzero_alpha_pixels"] < 5000:
+    if values["nonzero_alpha_pixels"] < 100000:
         raise AssertionError(f"Rendered frame is nearly blank: {values}")
     left, top, right, bottom = values["bbox"]
-    if left <= 0 or top <= 0 or right >= 767 or bottom >= 595:
+    width = case_config["render_size"]["width"]
+    height = case_config["render_size"]["height"]
+    if left <= 0 or top <= 0 or right >= width - 1 or bottom >= height - 1:
         raise AssertionError(f"Rendered character touches the viewport boundary: {values}")
     return values
 
@@ -95,6 +99,7 @@ def main() -> None:
         shutil.rmtree(args.work)
     args.work.mkdir(parents=True)
 
+    case_config = json.loads((args.case / "case.json").read_text(encoding="utf-8"))
     animations = run(
         [
             str(args.render),
@@ -105,13 +110,13 @@ def main() -> None:
             "--list-animations",
         ]
     ).stdout.splitlines()
-    for required in ("00_Walk", "05_MagicAttack"):
+    for required in ("action", "idle"):
         if required not in animations:
             raise AssertionError(f"Missing expected animation {required}: {animations}")
 
-    walk = render_pose(args.render, args.case, args.work, "00_Walk", 0.4, "walk")
-    magic = render_pose(args.render, args.case, args.work, "05_MagicAttack", 0.5, "magic")
-    if walk["nonzero_alpha_pixels"] == magic["nonzero_alpha_pixels"] and walk["bbox"] == magic["bbox"]:
+    action = render_pose(args.render, args.case, case_config, args.work, "action", 0.5, "action")
+    idle = render_pose(args.render, args.case, case_config, args.work, "idle", 0.4, "idle")
+    if action["nonzero_alpha_pixels"] == idle["nonzero_alpha_pixels"] and action["bbox"] == idle["bbox"]:
         raise AssertionError("Distinct poses produced indistinguishable render statistics")
 
     invalid_output = args.work / "invalid.png"
@@ -149,8 +154,8 @@ def main() -> None:
                 "scope": "pristine-starter-preflight",
                 "animations": len(animations),
                 "source_pages": len(source_pages),
-                "walk": walk,
-                "magic": magic,
+                "action": action,
+                "idle": idle,
             },
             indent=2,
         )

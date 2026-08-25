@@ -88,7 +88,7 @@ if(REDRAWSPINE_STARTER_TESTS)
             ${CMAKE_CURRENT_SOURCE_DIR}/tests/public_smoke.py
             --render $<TARGET_FILE:redrawspine-render>
             --reconstruct $<TARGET_FILE:redrawspine-reconstruct>
-            --case ${CMAKE_CURRENT_SOURCE_DIR}/assets/public_static_mesh_smoke
+            --case ${CMAKE_CURRENT_SOURCE_DIR}/assets/cases/real_art_continuous_run8
             --work ${CMAKE_CURRENT_BINARY_DIR}/starter-preflight-output
     )
 endif()

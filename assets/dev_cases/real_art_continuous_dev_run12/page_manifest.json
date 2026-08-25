@@ -1,0 +1,1802 @@
+[
+  {
+    "region": "L_arm",
+    "page": "source_attachments/L_arm.png",
+    "width": 137,
+    "height": 200,
+    "alpha_nonzero_pixels": 18365,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_arm_02_add",
+    "page": "source_attachments/L_arm_02_add.png",
+    "width": 91,
+    "height": 141,
+    "alpha_nonzero_pixels": 7964,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_arm_cloth",
+    "page": "source_attachments/L_arm_cloth.png",
+    "width": 196,
+    "height": 626,
+    "alpha_nonzero_pixels": 90666,
+    "redrawn": true,
+    "written_pixels": 73580
+  },
+  {
+    "region": "L_arm_cloth_01_add",
+    "page": "source_attachments/L_arm_cloth_01_add.png",
+    "width": 129,
+    "height": 371,
+    "alpha_nonzero_pixels": 22677,
+    "redrawn": true,
+    "written_pixels": 19857
+  },
+  {
+    "region": "L_arm_cloth_02_add",
+    "page": "source_attachments/L_arm_cloth_02_add.png",
+    "width": 135,
+    "height": 417,
+    "alpha_nonzero_pixels": 37136,
+    "redrawn": true,
+    "written_pixels": 33387
+  },
+  {
+    "region": "L_arm_lace",
+    "page": "source_attachments/L_arm_lace.png",
+    "width": 98,
+    "height": 249,
+    "alpha_nonzero_pixels": 13055,
+    "redrawn": true,
+    "written_pixels": 11604
+  },
+  {
+    "region": "L_arm_lace_01_add",
+    "page": "source_attachments/L_arm_lace_01_add.png",
+    "width": 115,
+    "height": 260,
+    "alpha_nonzero_pixels": 13638,
+    "redrawn": true,
+    "written_pixels": 11488
+  },
+  {
+    "region": "L_arm_lace_02_add",
+    "page": "source_attachments/L_arm_lace_02_add.png",
+    "width": 98,
+    "height": 228,
+    "alpha_nonzero_pixels": 15530,
+    "redrawn": true,
+    "written_pixels": 12641
+  },
+  {
+    "region": "L_arm_shadow_add",
+    "page": "source_attachments/L_arm_shadow_add.png",
+    "width": 109,
+    "height": 332,
+    "alpha_nonzero_pixels": 18551,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_balltouch",
+    "page": "source_attachments/L_balltouch.png",
+    "width": 86,
+    "height": 72,
+    "alpha_nonzero_pixels": 4091,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_balltouch_shy",
+    "page": "source_attachments/L_balltouch_shy.png",
+    "width": 86,
+    "height": 72,
+    "alpha_nonzero_pixels": 4093,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_body_cloth",
+    "page": "source_attachments/L_body_cloth.png",
+    "width": 542,
+    "height": 638,
+    "alpha_nonzero_pixels": 221893,
+    "redrawn": true,
+    "written_pixels": 108673
+  },
+  {
+    "region": "L_boob",
+    "page": "source_attachments/L_boob.png",
+    "width": 158,
+    "height": 141,
+    "alpha_nonzero_pixels": 12690,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_boob_shadow_01",
+    "page": "source_attachments/L_boob_shadow_01.png",
+    "width": 10,
+    "height": 20,
+    "alpha_nonzero_pixels": 112,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_boob_shadow_02",
+    "page": "source_attachments/L_boob_shadow_02.png",
+    "width": 10,
+    "height": 16,
+    "alpha_nonzero_pixels": 78,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_boob_shadow_03",
+    "page": "source_attachments/L_boob_shadow_03.png",
+    "width": 14,
+    "height": 17,
+    "alpha_nonzero_pixels": 137,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_bra_strap",
+    "page": "source_attachments/L_bra_strap.png",
+    "width": 78,
+    "height": 81,
+    "alpha_nonzero_pixels": 2930,
+    "redrawn": true,
+    "written_pixels": 1011
+  },
+  {
+    "region": "L_ear",
+    "page": "source_attachments/L_ear.png",
+    "width": 53,
+    "height": 39,
+    "alpha_nonzero_pixels": 1242,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eye_01_delight",
+    "page": "source_attachments/L_eye_01_delight.png",
+    "width": 61,
+    "height": 28,
+    "alpha_nonzero_pixels": 568,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eye_02_delight",
+    "page": "source_attachments/L_eye_02_delight.png",
+    "width": 53,
+    "height": 29,
+    "alpha_nonzero_pixels": 534,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eye_close_01",
+    "page": "source_attachments/L_eye_close_01.png",
+    "width": 58,
+    "height": 31,
+    "alpha_nonzero_pixels": 632,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eye_close_02",
+    "page": "source_attachments/L_eye_close_02.png",
+    "width": 55,
+    "height": 25,
+    "alpha_nonzero_pixels": 562,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball",
+    "page": "source_attachments/L_eyeball.png",
+    "width": 37,
+    "height": 37,
+    "alpha_nonzero_pixels": 891,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball_highlight_01",
+    "page": "source_attachments/L_eyeball_highlight_01.png",
+    "width": 12,
+    "height": 10,
+    "alpha_nonzero_pixels": 63,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball_highlight_01_shy",
+    "page": "source_attachments/L_eyeball_highlight_01_shy.png",
+    "width": 5,
+    "height": 7,
+    "alpha_nonzero_pixels": 13,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball_highlight_02",
+    "page": "source_attachments/L_eyeball_highlight_02.png",
+    "width": 7,
+    "height": 7,
+    "alpha_nonzero_pixels": 24,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball_highlight_02_shy",
+    "page": "source_attachments/L_eyeball_highlight_02_shy.png",
+    "width": 15,
+    "height": 15,
+    "alpha_nonzero_pixels": 140,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyeball_highlight_03_shy",
+    "page": "source_attachments/L_eyeball_highlight_03_shy.png",
+    "width": 9,
+    "height": 12,
+    "alpha_nonzero_pixels": 66,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebg",
+    "page": "source_attachments/L_eyebg.png",
+    "width": 52,
+    "height": 35,
+    "alpha_nonzero_pixels": 1182,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_02",
+    "page": "source_attachments/L_eyebrow_02.png",
+    "width": 39,
+    "height": 17,
+    "alpha_nonzero_pixels": 167,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_03",
+    "page": "source_attachments/L_eyebrow_03.png",
+    "width": 67,
+    "height": 21,
+    "alpha_nonzero_pixels": 566,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_04",
+    "page": "source_attachments/L_eyebrow_04.png",
+    "width": 43,
+    "height": 17,
+    "alpha_nonzero_pixels": 202,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_05",
+    "page": "source_attachments/L_eyebrow_05.png",
+    "width": 26,
+    "height": 18,
+    "alpha_nonzero_pixels": 124,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_idle_delight_surp",
+    "page": "source_attachments/L_eyebrow_idle_delight_surp.png",
+    "width": 28,
+    "height": 29,
+    "alpha_nonzero_pixels": 344,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyebrow_no_angry_shy_worry",
+    "page": "source_attachments/L_eyebrow_no_angry_shy_worry.png",
+    "width": 40,
+    "height": 16,
+    "alpha_nonzero_pixels": 192,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyelid_down",
+    "page": "source_attachments/L_eyelid_down.png",
+    "width": 45,
+    "height": 34,
+    "alpha_nonzero_pixels": 974,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_eyelid_up",
+    "page": "source_attachments/L_eyelid_up.png",
+    "width": 66,
+    "height": 40,
+    "alpha_nonzero_pixels": 1846,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_01",
+    "page": "source_attachments/L_fin_01.png",
+    "width": 67,
+    "height": 29,
+    "alpha_nonzero_pixels": 1214,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_01_add",
+    "page": "source_attachments/L_fin_01_add.png",
+    "width": 69,
+    "height": 42,
+    "alpha_nonzero_pixels": 1458,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_02",
+    "page": "source_attachments/L_fin_02.png",
+    "width": 92,
+    "height": 31,
+    "alpha_nonzero_pixels": 1385,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_02_01_add_02",
+    "page": "source_attachments/L_fin_02_01_add_02.png",
+    "width": 32,
+    "height": 35,
+    "alpha_nonzero_pixels": 689,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_02_02_add_02",
+    "page": "source_attachments/L_fin_02_02_add_02.png",
+    "width": 31,
+    "height": 21,
+    "alpha_nonzero_pixels": 465,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_02_add",
+    "page": "source_attachments/L_fin_02_add.png",
+    "width": 94,
+    "height": 37,
+    "alpha_nonzero_pixels": 2080,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_03",
+    "page": "source_attachments/L_fin_03.png",
+    "width": 89,
+    "height": 38,
+    "alpha_nonzero_pixels": 1837,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_03_add",
+    "page": "source_attachments/L_fin_03_add.png",
+    "width": 100,
+    "height": 48,
+    "alpha_nonzero_pixels": 3182,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_03_add_02",
+    "page": "source_attachments/L_fin_03_add_02.png",
+    "width": 29,
+    "height": 38,
+    "alpha_nonzero_pixels": 733,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_04",
+    "page": "source_attachments/L_fin_04.png",
+    "width": 81,
+    "height": 29,
+    "alpha_nonzero_pixels": 1016,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_04_add",
+    "page": "source_attachments/L_fin_04_add.png",
+    "width": 85,
+    "height": 46,
+    "alpha_nonzero_pixels": 1825,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_04_add_02",
+    "page": "source_attachments/L_fin_04_add_02.png",
+    "width": 32,
+    "height": 32,
+    "alpha_nonzero_pixels": 658,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_fin_05",
+    "page": "source_attachments/L_fin_05.png",
+    "width": 59,
+    "height": 27,
+    "alpha_nonzero_pixels": 954,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_foot",
+    "page": "source_attachments/L_foot.png",
+    "width": 87,
+    "height": 239,
+    "alpha_nonzero_pixels": 14626,
+    "redrawn": true,
+    "written_pixels": 13468
+  },
+  {
+    "region": "L_hand",
+    "page": "source_attachments/L_hand.png",
+    "width": 84,
+    "height": 68,
+    "alpha_nonzero_pixels": 4533,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_hand_add",
+    "page": "source_attachments/L_hand_add.png",
+    "width": 83,
+    "height": 64,
+    "alpha_nonzero_pixels": 3746,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_hand_add_02",
+    "page": "source_attachments/L_hand_add_02.png",
+    "width": 83,
+    "height": 86,
+    "alpha_nonzero_pixels": 5056,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_hand_shadow_add",
+    "page": "source_attachments/L_hand_shadow_add.png",
+    "width": 152,
+    "height": 98,
+    "alpha_nonzero_pixels": 6891,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_leg_01",
+    "page": "source_attachments/L_leg_01.png",
+    "width": 138,
+    "height": 330,
+    "alpha_nonzero_pixels": 37493,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_leg_02",
+    "page": "source_attachments/L_leg_02.png",
+    "width": 189,
+    "height": 588,
+    "alpha_nonzero_pixels": 69000,
+    "redrawn": true,
+    "written_pixels": 49873
+  },
+  {
+    "region": "L_leg_shadow_01",
+    "page": "source_attachments/L_leg_shadow_01.png",
+    "width": 131,
+    "height": 557,
+    "alpha_nonzero_pixels": 41378,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_leg_shadow_02",
+    "page": "source_attachments/L_leg_shadow_02.png",
+    "width": 196,
+    "height": 399,
+    "alpha_nonzero_pixels": 59667,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "L_leggings",
+    "page": "source_attachments/L_leggings.png",
+    "width": 140,
+    "height": 301,
+    "alpha_nonzero_pixels": 31821,
+    "redrawn": true,
+    "written_pixels": 28227
+  },
+  {
+    "region": "L_leggings_lace",
+    "page": "source_attachments/L_leggings_lace.png",
+    "width": 161,
+    "height": 125,
+    "alpha_nonzero_pixels": 8915,
+    "redrawn": true,
+    "written_pixels": 7974
+  },
+  {
+    "region": "R_arm_01",
+    "page": "source_attachments/R_arm_01.png",
+    "width": 103,
+    "height": 369,
+    "alpha_nonzero_pixels": 19029,
+    "redrawn": true,
+    "written_pixels": 18705
+  },
+  {
+    "region": "R_arm_01_cloth",
+    "page": "source_attachments/R_arm_01_cloth.png",
+    "width": 105,
+    "height": 334,
+    "alpha_nonzero_pixels": 25180,
+    "redrawn": true,
+    "written_pixels": 23718
+  },
+  {
+    "region": "R_arm_02",
+    "page": "source_attachments/R_arm_02.png",
+    "width": 198,
+    "height": 218,
+    "alpha_nonzero_pixels": 16551,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_arm_02_cloth_01",
+    "page": "source_attachments/R_arm_02_cloth_01.png",
+    "width": 371,
+    "height": 956,
+    "alpha_nonzero_pixels": 239554,
+    "redrawn": true,
+    "written_pixels": 130153
+  },
+  {
+    "region": "R_arm_02_cloth_02",
+    "page": "source_attachments/R_arm_02_cloth_02.png",
+    "width": 200,
+    "height": 576,
+    "alpha_nonzero_pixels": 61667,
+    "redrawn": true,
+    "written_pixels": 28470
+  },
+  {
+    "region": "R_arm_02_shadow",
+    "page": "source_attachments/R_arm_02_shadow.png",
+    "width": 307,
+    "height": 582,
+    "alpha_nonzero_pixels": 107605,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_arm_lace_01",
+    "page": "source_attachments/R_arm_lace_01.png",
+    "width": 136,
+    "height": 254,
+    "alpha_nonzero_pixels": 19499,
+    "redrawn": true,
+    "written_pixels": 6390
+  },
+  {
+    "region": "R_arm_lace_02",
+    "page": "source_attachments/R_arm_lace_02.png",
+    "width": 130,
+    "height": 257,
+    "alpha_nonzero_pixels": 19887,
+    "redrawn": true,
+    "written_pixels": 15904
+  },
+  {
+    "region": "R_balltouch",
+    "page": "source_attachments/R_balltouch.png",
+    "width": 98,
+    "height": 90,
+    "alpha_nonzero_pixels": 6279,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_balltouch_shy",
+    "page": "source_attachments/R_balltouch_shy.png",
+    "width": 98,
+    "height": 90,
+    "alpha_nonzero_pixels": 6278,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_body_cloth",
+    "page": "source_attachments/R_body_cloth.png",
+    "width": 183,
+    "height": 627,
+    "alpha_nonzero_pixels": 64803,
+    "redrawn": true,
+    "written_pixels": 49977
+  },
+  {
+    "region": "R_boob",
+    "page": "source_attachments/R_boob.png",
+    "width": 163,
+    "height": 146,
+    "alpha_nonzero_pixels": 14729,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_ear",
+    "page": "source_attachments/R_ear.png",
+    "width": 41,
+    "height": 80,
+    "alpha_nonzero_pixels": 2197,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_ear_shadow_01",
+    "page": "source_attachments/R_ear_shadow_01.png",
+    "width": 37,
+    "height": 72,
+    "alpha_nonzero_pixels": 1725,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_ear_shadow_02",
+    "page": "source_attachments/R_ear_shadow_02.png",
+    "width": 37,
+    "height": 55,
+    "alpha_nonzero_pixels": 1153,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eye_01_delight",
+    "page": "source_attachments/R_eye_01_delight.png",
+    "width": 64,
+    "height": 47,
+    "alpha_nonzero_pixels": 643,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eye_02_delight",
+    "page": "source_attachments/R_eye_02_delight.png",
+    "width": 75,
+    "height": 47,
+    "alpha_nonzero_pixels": 1507,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eye_close_01",
+    "page": "source_attachments/R_eye_close_01.png",
+    "width": 84,
+    "height": 39,
+    "alpha_nonzero_pixels": 897,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eye_close_02",
+    "page": "source_attachments/R_eye_close_02.png",
+    "width": 81,
+    "height": 48,
+    "alpha_nonzero_pixels": 1536,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyeball",
+    "page": "source_attachments/R_eyeball.png",
+    "width": 34,
+    "height": 40,
+    "alpha_nonzero_pixels": 1020,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyeball_highlight_01",
+    "page": "source_attachments/R_eyeball_highlight_01.png",
+    "width": 7,
+    "height": 5,
+    "alpha_nonzero_pixels": 12,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyeball_highlight_01_shy",
+    "page": "source_attachments/R_eyeball_highlight_01_shy.png",
+    "width": 10,
+    "height": 12,
+    "alpha_nonzero_pixels": 76,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyeball_highlight_02",
+    "page": "source_attachments/R_eyeball_highlight_02.png",
+    "width": 12,
+    "height": 10,
+    "alpha_nonzero_pixels": 76,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyeball_highlight_02_shy",
+    "page": "source_attachments/R_eyeball_highlight_02_shy.png",
+    "width": 15,
+    "height": 20,
+    "alpha_nonzero_pixels": 155,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebg",
+    "page": "source_attachments/R_eyebg.png",
+    "width": 54,
+    "height": 48,
+    "alpha_nonzero_pixels": 1732,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_02",
+    "page": "source_attachments/R_eyebrow_02.png",
+    "width": 55,
+    "height": 32,
+    "alpha_nonzero_pixels": 370,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_03",
+    "page": "source_attachments/R_eyebrow_03.png",
+    "width": 64,
+    "height": 47,
+    "alpha_nonzero_pixels": 1352,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_04",
+    "page": "source_attachments/R_eyebrow_04.png",
+    "width": 35,
+    "height": 28,
+    "alpha_nonzero_pixels": 191,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_05",
+    "page": "source_attachments/R_eyebrow_05.png",
+    "width": 7,
+    "height": 27,
+    "alpha_nonzero_pixels": 113,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_idle_delight_surp",
+    "page": "source_attachments/R_eyebrow_idle_delight_surp.png",
+    "width": 52,
+    "height": 11,
+    "alpha_nonzero_pixels": 209,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyebrow_no_angry_shy_worry",
+    "page": "source_attachments/R_eyebrow_no_angry_shy_worry.png",
+    "width": 49,
+    "height": 37,
+    "alpha_nonzero_pixels": 276,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyelid_down",
+    "page": "source_attachments/R_eyelid_down.png",
+    "width": 61,
+    "height": 56,
+    "alpha_nonzero_pixels": 2007,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_eyelid_up",
+    "page": "source_attachments/R_eyelid_up.png",
+    "width": 81,
+    "height": 77,
+    "alpha_nonzero_pixels": 3838,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_01",
+    "page": "source_attachments/R_fin_01.png",
+    "width": 48,
+    "height": 58,
+    "alpha_nonzero_pixels": 1011,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_02",
+    "page": "source_attachments/R_fin_02.png",
+    "width": 64,
+    "height": 67,
+    "alpha_nonzero_pixels": 2333,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_03_01",
+    "page": "source_attachments/R_fin_03_01.png",
+    "width": 41,
+    "height": 51,
+    "alpha_nonzero_pixels": 1103,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_03_02",
+    "page": "source_attachments/R_fin_03_02.png",
+    "width": 59,
+    "height": 38,
+    "alpha_nonzero_pixels": 1352,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_04_01",
+    "page": "source_attachments/R_fin_04_01.png",
+    "width": 25,
+    "height": 47,
+    "alpha_nonzero_pixels": 797,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_fin_04_02",
+    "page": "source_attachments/R_fin_04_02.png",
+    "width": 47,
+    "height": 53,
+    "alpha_nonzero_pixels": 1377,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_foot",
+    "page": "source_attachments/R_foot.png",
+    "width": 86,
+    "height": 247,
+    "alpha_nonzero_pixels": 15312,
+    "redrawn": true,
+    "written_pixels": 14853
+  },
+  {
+    "region": "R_hand",
+    "page": "source_attachments/R_hand.png",
+    "width": 72,
+    "height": 100,
+    "alpha_nonzero_pixels": 4729,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_leg_01",
+    "page": "source_attachments/R_leg_01.png",
+    "width": 244,
+    "height": 323,
+    "alpha_nonzero_pixels": 59528,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_leg_02",
+    "page": "source_attachments/R_leg_02.png",
+    "width": 277,
+    "height": 542,
+    "alpha_nonzero_pixels": 110985,
+    "redrawn": true,
+    "written_pixels": 56023
+  },
+  {
+    "region": "R_leg_shadow_01",
+    "page": "source_attachments/R_leg_shadow_01.png",
+    "width": 149,
+    "height": 292,
+    "alpha_nonzero_pixels": 18751,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_leg_shadow_02",
+    "page": "source_attachments/R_leg_shadow_02.png",
+    "width": 223,
+    "height": 103,
+    "alpha_nonzero_pixels": 14212,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "R_leggings",
+    "page": "source_attachments/R_leggings.png",
+    "width": 182,
+    "height": 305,
+    "alpha_nonzero_pixels": 43015,
+    "redrawn": true,
+    "written_pixels": 36744
+  },
+  {
+    "region": "R_leggings_lace",
+    "page": "source_attachments/R_leggings_lace.png",
+    "width": 174,
+    "height": 131,
+    "alpha_nonzero_pixels": 10740,
+    "redrawn": true,
+    "written_pixels": 9935
+  },
+  {
+    "region": "body_01",
+    "page": "source_attachments/body_01.png",
+    "width": 317,
+    "height": 312,
+    "alpha_nonzero_pixels": 27263,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "body_02",
+    "page": "source_attachments/body_02.png",
+    "width": 307,
+    "height": 389,
+    "alpha_nonzero_pixels": 46639,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "body_cloth_01",
+    "page": "source_attachments/body_cloth_01.png",
+    "width": 493,
+    "height": 543,
+    "alpha_nonzero_pixels": 138252,
+    "redrawn": true,
+    "written_pixels": 38860
+  },
+  {
+    "region": "body_cloth_02",
+    "page": "source_attachments/body_cloth_02.png",
+    "width": 295,
+    "height": 263,
+    "alpha_nonzero_pixels": 61514,
+    "redrawn": true,
+    "written_pixels": 52943
+  },
+  {
+    "region": "body_cloth_02_lace_01",
+    "page": "source_attachments/body_cloth_02_lace_01.png",
+    "width": 170,
+    "height": 105,
+    "alpha_nonzero_pixels": 6083,
+    "redrawn": true,
+    "written_pixels": 5748
+  },
+  {
+    "region": "body_cloth_02_lace_02",
+    "page": "source_attachments/body_cloth_02_lace_02.png",
+    "width": 109,
+    "height": 72,
+    "alpha_nonzero_pixels": 3430,
+    "redrawn": true,
+    "written_pixels": 3148
+  },
+  {
+    "region": "bra_strap_01",
+    "page": "source_attachments/bra_strap_01.png",
+    "width": 30,
+    "height": 166,
+    "alpha_nonzero_pixels": 1524,
+    "redrawn": true,
+    "written_pixels": 1473
+  },
+  {
+    "region": "bra_strap_02",
+    "page": "source_attachments/bra_strap_02.png",
+    "width": 53,
+    "height": 130,
+    "alpha_nonzero_pixels": 1978,
+    "redrawn": true,
+    "written_pixels": 1189
+  },
+  {
+    "region": "effect_01_01",
+    "page": "source_attachments/effect_01_01.png",
+    "width": 381,
+    "height": 340,
+    "alpha_nonzero_pixels": 29467,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "effect_02_01",
+    "page": "source_attachments/effect_02_01.png",
+    "width": 152,
+    "height": 204,
+    "alpha_nonzero_pixels": 10099,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "effect_02_02",
+    "page": "source_attachments/effect_02_02.png",
+    "width": 96,
+    "height": 124,
+    "alpha_nonzero_pixels": 6445,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "face_highlight_01",
+    "page": "source_attachments/face_highlight_01.png",
+    "width": 9,
+    "height": 8,
+    "alpha_nonzero_pixels": 33,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "face_highlight_02",
+    "page": "source_attachments/face_highlight_02.png",
+    "width": 10,
+    "height": 7,
+    "alpha_nonzero_pixels": 30,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_01",
+    "page": "source_attachments/hair_01.png",
+    "width": 75,
+    "height": 160,
+    "alpha_nonzero_pixels": 5943,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_02",
+    "page": "source_attachments/hair_02.png",
+    "width": 52,
+    "height": 194,
+    "alpha_nonzero_pixels": 1195,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_03_01",
+    "page": "source_attachments/hair_03_01.png",
+    "width": 209,
+    "height": 428,
+    "alpha_nonzero_pixels": 46644,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_03_02",
+    "page": "source_attachments/hair_03_02.png",
+    "width": 65,
+    "height": 206,
+    "alpha_nonzero_pixels": 3207,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_04_01",
+    "page": "source_attachments/hair_04_01.png",
+    "width": 55,
+    "height": 81,
+    "alpha_nonzero_pixels": 1841,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_04_02",
+    "page": "source_attachments/hair_04_02.png",
+    "width": 89,
+    "height": 92,
+    "alpha_nonzero_pixels": 5235,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_04_03",
+    "page": "source_attachments/hair_04_03.png",
+    "width": 92,
+    "height": 170,
+    "alpha_nonzero_pixels": 5504,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_04_04",
+    "page": "source_attachments/hair_04_04.png",
+    "width": 92,
+    "height": 344,
+    "alpha_nonzero_pixels": 15003,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_05",
+    "page": "source_attachments/hair_05.png",
+    "width": 43,
+    "height": 209,
+    "alpha_nonzero_pixels": 3299,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_06",
+    "page": "source_attachments/hair_06.png",
+    "width": 127,
+    "height": 145,
+    "alpha_nonzero_pixels": 9253,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_07",
+    "page": "source_attachments/hair_07.png",
+    "width": 112,
+    "height": 162,
+    "alpha_nonzero_pixels": 13639,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_08",
+    "page": "source_attachments/hair_08.png",
+    "width": 81,
+    "height": 170,
+    "alpha_nonzero_pixels": 7611,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_09",
+    "page": "source_attachments/hair_09.png",
+    "width": 45,
+    "height": 99,
+    "alpha_nonzero_pixels": 1493,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_10",
+    "page": "source_attachments/hair_10.png",
+    "width": 163,
+    "height": 138,
+    "alpha_nonzero_pixels": 14687,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_11",
+    "page": "source_attachments/hair_11.png",
+    "width": 53,
+    "height": 203,
+    "alpha_nonzero_pixels": 4677,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_12",
+    "page": "source_attachments/hair_12.png",
+    "width": 197,
+    "height": 93,
+    "alpha_nonzero_pixels": 8561,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_13",
+    "page": "source_attachments/hair_13.png",
+    "width": 198,
+    "height": 226,
+    "alpha_nonzero_pixels": 16442,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_14",
+    "page": "source_attachments/hair_14.png",
+    "width": 185,
+    "height": 275,
+    "alpha_nonzero_pixels": 28152,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_15",
+    "page": "source_attachments/hair_15.png",
+    "width": 214,
+    "height": 251,
+    "alpha_nonzero_pixels": 28841,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_16",
+    "page": "source_attachments/hair_16.png",
+    "width": 217,
+    "height": 323,
+    "alpha_nonzero_pixels": 24809,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_17_01",
+    "page": "source_attachments/hair_17_01.png",
+    "width": 106,
+    "height": 94,
+    "alpha_nonzero_pixels": 4517,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_17_02",
+    "page": "source_attachments/hair_17_02.png",
+    "width": 77,
+    "height": 23,
+    "alpha_nonzero_pixels": 850,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_18",
+    "page": "source_attachments/hair_18.png",
+    "width": 313,
+    "height": 149,
+    "alpha_nonzero_pixels": 27003,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_19",
+    "page": "source_attachments/hair_19.png",
+    "width": 479,
+    "height": 520,
+    "alpha_nonzero_pixels": 144590,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_20",
+    "page": "source_attachments/hair_20.png",
+    "width": 250,
+    "height": 238,
+    "alpha_nonzero_pixels": 31601,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_21",
+    "page": "source_attachments/hair_21.png",
+    "width": 346,
+    "height": 149,
+    "alpha_nonzero_pixels": 20958,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_22",
+    "page": "source_attachments/hair_22.png",
+    "width": 390,
+    "height": 337,
+    "alpha_nonzero_pixels": 60347,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_23",
+    "page": "source_attachments/hair_23.png",
+    "width": 136,
+    "height": 244,
+    "alpha_nonzero_pixels": 14689,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_24",
+    "page": "source_attachments/hair_24.png",
+    "width": 459,
+    "height": 471,
+    "alpha_nonzero_pixels": 140142,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_25",
+    "page": "source_attachments/hair_25.png",
+    "width": 144,
+    "height": 289,
+    "alpha_nonzero_pixels": 30990,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_26",
+    "page": "source_attachments/hair_26.png",
+    "width": 85,
+    "height": 41,
+    "alpha_nonzero_pixels": 2222,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hair_flower",
+    "page": "source_attachments/hair_flower.png",
+    "width": 116,
+    "height": 113,
+    "alpha_nonzero_pixels": 10312,
+    "redrawn": true,
+    "written_pixels": 9979
+  },
+  {
+    "region": "hair_ribbon_01",
+    "page": "source_attachments/hair_ribbon_01.png",
+    "width": 46,
+    "height": 61,
+    "alpha_nonzero_pixels": 1854,
+    "redrawn": true,
+    "written_pixels": 1475
+  },
+  {
+    "region": "hair_ribbon_02",
+    "page": "source_attachments/hair_ribbon_02.png",
+    "width": 76,
+    "height": 57,
+    "alpha_nonzero_pixels": 2074,
+    "redrawn": true,
+    "written_pixels": 1334
+  },
+  {
+    "region": "hair_ribbon_03",
+    "page": "source_attachments/hair_ribbon_03.png",
+    "width": 193,
+    "height": 141,
+    "alpha_nonzero_pixels": 5770,
+    "redrawn": true,
+    "written_pixels": 1896
+  },
+  {
+    "region": "hair_ribbon_04",
+    "page": "source_attachments/hair_ribbon_04.png",
+    "width": 137,
+    "height": 260,
+    "alpha_nonzero_pixels": 4458,
+    "redrawn": true,
+    "written_pixels": 2366
+  },
+  {
+    "region": "hair_shadow",
+    "page": "source_attachments/hair_shadow.png",
+    "width": 198,
+    "height": 164,
+    "alpha_nonzero_pixels": 19722,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hairpin",
+    "page": "source_attachments/hairpin.png",
+    "width": 63,
+    "height": 81,
+    "alpha_nonzero_pixels": 1930,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "hairpin_shadow",
+    "page": "source_attachments/hairpin_shadow.png",
+    "width": 46,
+    "height": 76,
+    "alpha_nonzero_pixels": 1531,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "head",
+    "page": "source_attachments/head.png",
+    "width": 207,
+    "height": 234,
+    "alpha_nonzero_pixels": 37690,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "lace_01",
+    "page": "source_attachments/lace_01.png",
+    "width": 200,
+    "height": 143,
+    "alpha_nonzero_pixels": 14054,
+    "redrawn": true,
+    "written_pixels": 10482
+  },
+  {
+    "region": "lace_02",
+    "page": "source_attachments/lace_02.png",
+    "width": 221,
+    "height": 185,
+    "alpha_nonzero_pixels": 23401,
+    "redrawn": true,
+    "written_pixels": 18445
+  },
+  {
+    "region": "lace_03",
+    "page": "source_attachments/lace_03.png",
+    "width": 235,
+    "height": 121,
+    "alpha_nonzero_pixels": 13798,
+    "redrawn": true,
+    "written_pixels": 12339
+  },
+  {
+    "region": "lace_04",
+    "page": "source_attachments/lace_04.png",
+    "width": 265,
+    "height": 90,
+    "alpha_nonzero_pixels": 14367,
+    "redrawn": true,
+    "written_pixels": 14210
+  },
+  {
+    "region": "mouth",
+    "page": "source_attachments/mouth.png",
+    "width": 49,
+    "height": 32,
+    "alpha_nonzero_pixels": 895,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_angry",
+    "page": "source_attachments/mouth_angry.png",
+    "width": 30,
+    "height": 18,
+    "alpha_nonzero_pixels": 293,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_delight",
+    "page": "source_attachments/mouth_delight.png",
+    "width": 50,
+    "height": 32,
+    "alpha_nonzero_pixels": 736,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_no",
+    "page": "source_attachments/mouth_no.png",
+    "width": 38,
+    "height": 28,
+    "alpha_nonzero_pixels": 474,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_shy",
+    "page": "source_attachments/mouth_shy.png",
+    "width": 30,
+    "height": 18,
+    "alpha_nonzero_pixels": 306,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_smile",
+    "page": "source_attachments/mouth_smile.png",
+    "width": 50,
+    "height": 32,
+    "alpha_nonzero_pixels": 754,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_surp",
+    "page": "source_attachments/mouth_surp.png",
+    "width": 19,
+    "height": 24,
+    "alpha_nonzero_pixels": 244,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "mouth_worry",
+    "page": "source_attachments/mouth_worry.png",
+    "width": 30,
+    "height": 18,
+    "alpha_nonzero_pixels": 293,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "neck",
+    "page": "source_attachments/neck.png",
+    "width": 87,
+    "height": 128,
+    "alpha_nonzero_pixels": 8202,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "neckling",
+    "page": "source_attachments/neckling.png",
+    "width": 63,
+    "height": 67,
+    "alpha_nonzero_pixels": 1510,
+    "redrawn": true,
+    "written_pixels": 886
+  },
+  {
+    "region": "neckt_collar",
+    "page": "source_attachments/neckt_collar.png",
+    "width": 181,
+    "height": 122,
+    "alpha_nonzero_pixels": 9335,
+    "redrawn": true,
+    "written_pixels": 7983
+  },
+  {
+    "region": "nose",
+    "page": "source_attachments/nose.png",
+    "width": 31,
+    "height": 40,
+    "alpha_nonzero_pixels": 866,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "skirt",
+    "page": "source_attachments/skirt.png",
+    "width": 607,
+    "height": 330,
+    "alpha_nonzero_pixels": 148413,
+    "redrawn": true,
+    "written_pixels": 102112
+  },
+  {
+    "region": "skirt_back",
+    "page": "source_attachments/skirt_back.png",
+    "width": 231,
+    "height": 220,
+    "alpha_nonzero_pixels": 40208,
+    "redrawn": true,
+    "written_pixels": 36712
+  },
+  {
+    "region": "weapon",
+    "page": "source_attachments/weapon.png",
+    "width": 1004,
+    "height": 1819,
+    "alpha_nonzero_pixels": 1163353,
+    "redrawn": true,
+    "written_pixels": 92512
+  },
+  {
+    "region": "weapon_acc",
+    "page": "source_attachments/weapon_acc.png",
+    "width": 78,
+    "height": 101,
+    "alpha_nonzero_pixels": 4739,
+    "redrawn": true,
+    "written_pixels": 4657
+  },
+  {
+    "region": "weapon_highlight_01",
+    "page": "source_attachments/weapon_highlight_01.png",
+    "width": 42,
+    "height": 33,
+    "alpha_nonzero_pixels": 927,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_02",
+    "page": "source_attachments/weapon_highlight_02.png",
+    "width": 19,
+    "height": 13,
+    "alpha_nonzero_pixels": 160,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_03",
+    "page": "source_attachments/weapon_highlight_03.png",
+    "width": 18,
+    "height": 15,
+    "alpha_nonzero_pixels": 195,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_04",
+    "page": "source_attachments/weapon_highlight_04.png",
+    "width": 24,
+    "height": 50,
+    "alpha_nonzero_pixels": 376,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_05",
+    "page": "source_attachments/weapon_highlight_05.png",
+    "width": 87,
+    "height": 66,
+    "alpha_nonzero_pixels": 2652,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_06",
+    "page": "source_attachments/weapon_highlight_06.png",
+    "width": 187,
+    "height": 191,
+    "alpha_nonzero_pixels": 10339,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_07",
+    "page": "source_attachments/weapon_highlight_07.png",
+    "width": 98,
+    "height": 106,
+    "alpha_nonzero_pixels": 7066,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_08",
+    "page": "source_attachments/weapon_highlight_08.png",
+    "width": 160,
+    "height": 112,
+    "alpha_nonzero_pixels": 12627,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_09",
+    "page": "source_attachments/weapon_highlight_09.png",
+    "width": 106,
+    "height": 106,
+    "alpha_nonzero_pixels": 7739,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_10",
+    "page": "source_attachments/weapon_highlight_10.png",
+    "width": 30,
+    "height": 86,
+    "alpha_nonzero_pixels": 916,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_11",
+    "page": "source_attachments/weapon_highlight_11.png",
+    "width": 163,
+    "height": 141,
+    "alpha_nonzero_pixels": 1563,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_highlight_12",
+    "page": "source_attachments/weapon_highlight_12.png",
+    "width": 106,
+    "height": 115,
+    "alpha_nonzero_pixels": 6816,
+    "redrawn": false,
+    "written_pixels": 0
+  },
+  {
+    "region": "weapon_ribbon_01",
+    "page": "source_attachments/weapon_ribbon_01.png",
+    "width": 127,
+    "height": 132,
+    "alpha_nonzero_pixels": 11765,
+    "redrawn": true,
+    "written_pixels": 10131
+  },
+  {
+    "region": "weapon_ribbon_02",
+    "page": "source_attachments/weapon_ribbon_02.png",
+    "width": 207,
+    "height": 533,
+    "alpha_nonzero_pixels": 78838,
+    "redrawn": true,
+    "written_pixels": 45505
+  },
+  {
+    "region": "weapon_ribbon_03",
+    "page": "source_attachments/weapon_ribbon_03.png",
+    "width": 333,
+    "height": 843,
+    "alpha_nonzero_pixels": 130065,
+    "redrawn": true,
+    "written_pixels": 17837
+  },
+  {
+    "region": "weapon_ribbon_04",
+    "page": "source_attachments/weapon_ribbon_04.png",
+    "width": 95,
+    "height": 126,
+    "alpha_nonzero_pixels": 8852,
+    "redrawn": true,
+    "written_pixels": 7646
+  },
+  {
+    "region": "weapon_ribbon_05",
+    "page": "source_attachments/weapon_ribbon_05.png",
+    "width": 215,
+    "height": 801,
+    "alpha_nonzero_pixels": 78762,
+    "redrawn": true,
+    "written_pixels": 49348
+  },
+  {
+    "region": "weapon_ribbon_06",
+    "page": "source_attachments/weapon_ribbon_06.png",
+    "width": 101,
+    "height": 579,
+    "alpha_nonzero_pixels": 24213,
+    "redrawn": true,
+    "written_pixels": 13668
+  },
+  {
+    "region": "weapon_shadow",
+    "page": "source_attachments/weapon_shadow.png",
+    "width": 108,
+    "height": 294,
+    "alpha_nonzero_pixels": 11655,
+    "redrawn": false,
+    "written_pixels": 0
+  }
+]

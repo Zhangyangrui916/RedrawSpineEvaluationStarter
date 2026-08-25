@@ -31,11 +31,14 @@ def main() -> None:
         elif path.is_file() and (path.suffix.lower() in FORBIDDEN_SUFFIXES or path.name in FORBIDDEN_FILENAMES):
             violations.append(str(relative))
 
-    case = root / "assets" / "public_static_mesh_smoke"
+    case = root / "assets" / "cases" / "real_art_continuous_run8"
     case_json = json.loads((case / "case.json").read_text(encoding="utf-8"))
     pages = sorted((case / case_json["source_attachments"]).glob("*.png"))
-    if len(pages) != 20:
-        violations.append(f"Expected 20 public source pages, found {len(pages)}")
+    if len(pages) != 200:
+        violations.append(f"Expected 200 final source pages, found {len(pages)}")
+    for forbidden in ("oracle", "operator_energy", "support_masks", "hidden_poses.json"):
+        if (case / forbidden).exists():
+            violations.append(f"Final case leaks private path: {forbidden}")
 
     if violations:
         raise SystemExit("Source-only audit failed:\n" + "\n".join(f"- {item}" for item in violations))

@@ -1,99 +1,133 @@
-# Task: Reconstruct Static Spine Attachment Pages
+# Task: Reconstruct a Continuous-Alpha Spine Skin
 
-This workspace contains two final reconstruction cases:
-
-```text
-assets/cases/static_mesh_seed_a
-assets/cases/static_mesh_seed_b
-```
-
-Each case contains the same Spine skeleton topology and a different unknown target skin. Its `observations/` directory contains several `(before, after)` renders:
+Reconstruct one pose-independent set of static Spine attachment-page PNGs for:
 
 ```text
-before = the source skin S0 rendered at a pose
-after  = one fixed unknown target skin S1 rendered at the same pose
+assets/cases/real_art_continuous_run8
 ```
 
-Observations have no processing-order semantics. Combine every observation for a case to reconstruct one reusable set of static attachment-page PNGs.
+The case contains ten `(before, after)` observations. Every `before` is the known source skin S0 rendered at a pose;
+every `after` is the same unknown target skin S1 rendered at that pose. Observations have no processing-order
+semantics. Combine all of them.
+
+This is an inverse-rendering task, not frame recoloring. The final pages must work at poses that are not observations.
 
 ## Public Development Oracle
 
-`assets/dev_cases/synthetic_dev` is a fully public calibration fixture. It exposes S1 pages and validation references under `oracle/` intentionally. Develop from its `case.json`, S0, and observations first; inspect the oracle afterward to diagnose texture-space and render-space errors.
-
-Final cases use different target seeds and do not expose S1, trusted support masks, hidden poses, references, or an iterative score. Copying or hardcoding the development target cannot solve them. Exact target-page equality is not required when observations underdetermine individual texels; validation is render-space behavior.
-
-## Required Results
-
-Build and run your implementation. Leave the final pages at:
+Start with:
 
 ```text
-results/static_mesh_seed_a/page_000.png ... page_019.png
-results/static_mesh_seed_b/page_000.png ... page_019.png
+assets/dev_cases/real_art_continuous_dev_run12
 ```
 
-The initial executable is a No-op baseline:
+It uses the same model, poses, alpha, and forward convention with a different archived redraw. It intentionally exposes
+S1 pages, validation references, and coefficient-energy diagnostics. Use those files to test an algorithm and inspect
+failure modes before running it unchanged on the final Run 8 case.
+
+The final case does not expose S1, trusted support masks, hidden poses, references, or an iterative score. A method that
+hardcodes or copies the Run 12 target cannot solve Run 8.
+
+## Required Result
+
+Leave exactly 200 output PNGs under:
+
+```text
+results/real_art_continuous_run8
+```
+
+The starter executable is an explicit No-op baseline:
 
 ```bash
 ./build/redrawspine-reconstruct \
-  --case assets/cases/static_mesh_seed_a \
-  --output results/static_mesh_seed_a
-
-./build/redrawspine-reconstruct \
-  --case assets/cases/static_mesh_seed_b \
-  --output results/static_mesh_seed_b
+  --case assets/cases/real_art_continuous_run8 \
+  --output results/real_art_continuous_run8
 ```
 
-Replace it with a deterministic multi-observation reconstruction method.
+Replace it with a deterministic multi-observation reconstruction method. The implementation technique is not scored;
+matrix-free optimization, inverse mapping, iterative scatter, or another defensible method are all allowed.
 
 ## Output Contract
 
-- Produce exactly the pages listed by each `case.json`.
-- Names and dimensions must match `output_pages`.
+- Produce exactly the pages in `case.json::output_pages`, with matching names and dimensions.
 - Files must be non-interlaced RGBA8 PNGs.
-- Every output alpha channel must exactly match the corresponding source page.
+- Preserve every source alpha value exactly, including semitransparent values. Only RGB is unknown.
 - RGB under alpha 0 is ignored and canonicalized to transparent black by the grader.
-- Output RGB may and should differ from S0.
-- Produce one pose-independent static page set. Per-frame caches are not an alternative output.
-- The grader uses the original supplied skeleton, atlas mapping, animations, and meshes. Candidate-side asset edits do not change the grading geometry.
+- Produce one reusable static page set. Per-frame caches are not an alternative output.
+- Grading always uses the original skeleton, atlas mapping, animations, constraints, meshes, and draw order.
 
-Validate format and alpha without checking RGB:
+Validate structure and alpha without checking RGB:
 
 ```bash
 python tests/output_contract.py \
-  --case assets/cases/static_mesh_seed_a \
-  --output results/static_mesh_seed_a
+  --case assets/cases/real_art_continuous_run8 \
+  --output results/real_art_continuous_run8
 ```
+
+## Why Continuous Alpha Matters
+
+One rendered pixel may contain contributions from several attachment layers. For a pixel `p`, process fragments from
+bottom to top. With known texture alpha, tint, geometry, and draw order:
+
+```text
+sample_alpha_i = tint_alpha_i * bilinear(texture_alpha_i)
+coefficient_i  = sample_alpha_i * product_{j above i}(1 - sample_alpha_j)
+frame_rgb_p    = sum_i(coefficient_i * tint_rgb_i * bilinear(texture_rgb_i))
+```
+
+The RGB problem remains linear because alpha is fixed. Subtracting each `before` from its `after` removes the known S0
+render and gives equations for `delta_texture_rgb = S1.rgb - S0.rgb`.
+
+A V1-style rule that assigns each pixel only to its topmost attachment is not the forward model for this task.
 
 ## Hidden Evaluation
 
-The grader renders the submitted static pages at undisclosed poses using the original supplied skeleton and atlas mapping.
+The grader renders submitted pages at 12 undisclosed poses and compares them with S1 references. Individual texels that
+the ten observations do not stably constrain are neutralized before rendering, so flood/inpainting outside trusted
+support is neither rewarded nor penalized.
 
-Scoring is based on render-space similarity to the hidden target skin. RGB in regions that the public observations do not reliably constrain is neutralized before rendering, so candidates are not rewarded or penalized for a particular completion or flood choice there. The submitted files are not modified.
+Trusted texture support is computed privately from the public observation operator:
 
-Scores are normalized so that copying S0 is approximately 0 and reproducing the target renders is 1. Both final cases and consistently weak poses contribute to the result. The resolved threshold for this local calibration task is `0.9`.
+```text
+energy[t, c] = sum_p(A_c[p, t]^2)
+support[t]   = alpha[t] > 0 and max_c(energy[t, c]) >= 1e-4
+```
 
-Final evaluation is run once after completion; there is no queryable final score during development. Candidate-generated masks may be useful diagnostics, but they do not define the grading region.
+Outside support, both candidate and No-op evaluation pages use private S1 RGB. Inside support, the candidate uses its
+submitted RGB and No-op uses S0 RGB. Candidate-generated masks do not define grading support.
 
-## Forward Semantics
+Scores use hidden render-space RGBA L1 and are normalized so No-op is approximately 0 and Reference S1 is 1. The final
+score is 80% mean pose quality plus 20% bottom-20% pose quality. The resolved threshold is `0.9`.
 
-The supplied renderer source is the authoritative forward convention even if you replace its implementation. Cases use the viewport and render size in `case.json`, pixel-center rasterization, GL_LINEAR texture filtering, clamp-to-edge, straight alpha, normal blending, RGBA8 output, no mipmaps, no sRGB conversion, no MSAA, and no dithering. PNG readback is top-down after the renderer's vertical flip.
+Exact full-page S1 recovery is not guaranteed or required. A candidate can be correct on the resolved task while its
+subjective completion outside support differs from the public S1 oracle.
 
-## Implementation Freedom
+## Forward Convention
 
-Only the final page behavior and CLI are frozen. You may modify, repurpose, replace, or remove the supplied color renderer; change shaders; modify candidate-side Spine integration; implement an ID/UV pass; use a CPU method; or build different internal tools.
+The supplied renderer source is the authoritative forward convention even if you replace it. It uses the viewport and
+render size in `case.json`, pixel-center rasterization, `GL_LINEAR` texture filtering, clamp-to-edge, straight alpha,
+normal blending, RGBA8 output, no mipmaps, no sRGB conversion, no MSAA, and no dithering. PNG readback is top-down after
+the framebuffer row flip.
 
-`redrawspine-render` and the opt-in pristine-starter preflight are starting infrastructure, not final grading requirements.
+Use `before.png` as a self-calibration signal: rendering the known S0 through a candidate forward model should reproduce
+it to RGBA8 quantization tolerance before solving the inverse problem.
 
-## V1 Data Contract
+## Data Contract
 
-Cases may contain RegionAttachment and ordinary/weighted/linked MeshAttachment, attachment switching, bone translate/rotate/scale/shear, and draw-order changes. They use a fixed viewport, normal blend, binary texture alpha, and one complete atlas page per output attachment.
+- Spine 4.2 JSON with 308 bones, 209 slots, and 200 complete one-region atlas pages.
+- RegionAttachment and ordinary/weighted/linked MeshAttachment.
+- Attachment switching, draw-order changes, deform timelines, IK constraints, and transform constraints.
+- Normal blend and straight alpha only; no clipping, packed atlas regions, rotation, trim, padding, or PMA.
+- Real continuous attachment alpha and multiple simultaneously contributing layers.
+- Fixed `1856 x 2288` viewport and render size, approximately one framebuffer pixel per world unit.
 
-They do not contain deform timelines, IK/path/transform/physics constraints, clipping, complex blend modes, internal semitransparent texels, atlas packing, rotation, trim, or padding.
+`page_manifest.json` maps Spine region names to complete page files. JSON, atlas, manifests, and documentation use UTF-8
+without BOM.
 
-`page_manifest.json` maps Spine region names to complete page files. JSON, atlas, manifests, and documentation use UTF-8 without BOM.
+## Budget and Restrictions
 
-## Local Trial Budget
+Target a clean configure/build plus final reconstruction within 15 minutes and 4 GiB peak memory. The calibrated
+private PCG baseline takes about 134 seconds and 0.75 GiB on the authoring Windows machine; this is guidance, not a
+required algorithm.
 
-For this local calibration rollout, target a clean configure/build plus both final reconstructions within 15 minutes and 4 GiB peak memory. Record actual time and memory if available. This provisional budget is deliberately generous and is not yet the frozen DS Bench production limit.
-
-Do not access the network or external APIs. Run the supplied project and public checks locally; do not only describe a solution in the final response.
+Do not access the network or external APIs. Run the supplied project and public checks locally; do not only describe a
+solution in the final response.

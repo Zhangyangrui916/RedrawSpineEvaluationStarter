@@ -32,7 +32,7 @@ Texture *textureFor(spine::TextureRegion *region, const std::string &attachment_
         throw std::runtime_error("Attachment has no loaded texture region: " + attachment_name);
     }
     auto *texture = static_cast<Texture *>(region->rendererObject);
-    if (texture->pma) throw std::runtime_error("Premultiplied-alpha atlas pages are outside the V1 contract");
+    if (texture->pma) throw std::runtime_error("Premultiplied-alpha atlas pages are outside the task contract");
     return texture;
 }
 
@@ -81,7 +81,7 @@ std::vector<DrawPacket> SpineAsset::buildDrawPackets() const {
         spine::Attachment *attachment = slot->getAttachment();
         if (!attachment) continue;
         if (slot->getData().getBlendMode() != spine::BlendMode_Normal) {
-            throw std::runtime_error("Only normal slot blend mode is supported in V1");
+            throw std::runtime_error("Only normal slot blend mode is supported by this task");
         }
 
         DrawPacket packet;

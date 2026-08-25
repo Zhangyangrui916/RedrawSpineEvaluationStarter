@@ -1,0 +1,1412 @@
+{
+  "schema_version": 2,
+  "source_replay_report": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\replay_run_12\\replay_report.json",
+  "replay_run": 12,
+  "replay_exact_archived_pages": 50,
+  "direct_written_mask_texels": 1030744,
+  "direct_written_target_texels": 981928,
+  "propagated_texels": 356368,
+  "target_defined_texels": 1338296,
+  "page_stats": [
+    {
+      "name": "L_arm.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_arm_02_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_arm_cloth.png",
+      "direct_written_mask_texels": 38288,
+      "direct_written_target_texels": 37309,
+      "propagated_texels": 36528,
+      "target_defined_texels": 73837
+    },
+    {
+      "name": "L_arm_cloth_01_add.png",
+      "direct_written_mask_texels": 21593,
+      "direct_written_target_texels": 20709,
+      "propagated_texels": 167,
+      "target_defined_texels": 20876
+    },
+    {
+      "name": "L_arm_cloth_02_add.png",
+      "direct_written_mask_texels": 5035,
+      "direct_written_target_texels": 4966,
+      "propagated_texels": 28438,
+      "target_defined_texels": 33404
+    },
+    {
+      "name": "L_arm_lace.png",
+      "direct_written_mask_texels": 4517,
+      "direct_written_target_texels": 4473,
+      "propagated_texels": 7167,
+      "target_defined_texels": 11640
+    },
+    {
+      "name": "L_arm_lace_01_add.png",
+      "direct_written_mask_texels": 7190,
+      "direct_written_target_texels": 6999,
+      "propagated_texels": 4514,
+      "target_defined_texels": 11513
+    },
+    {
+      "name": "L_arm_lace_02_add.png",
+      "direct_written_mask_texels": 2421,
+      "direct_written_target_texels": 2327,
+      "propagated_texels": 10453,
+      "target_defined_texels": 12780
+    },
+    {
+      "name": "L_arm_shadow_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_balltouch.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_balltouch_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_body_cloth.png",
+      "direct_written_mask_texels": 92720,
+      "direct_written_target_texels": 90069,
+      "propagated_texels": 18931,
+      "target_defined_texels": 109000
+    },
+    {
+      "name": "L_boob.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_boob_shadow_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_boob_shadow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_boob_shadow_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_bra_strap.png",
+      "direct_written_mask_texels": 670,
+      "direct_written_target_texels": 558,
+      "propagated_texels": 465,
+      "target_defined_texels": 1023
+    },
+    {
+      "name": "L_ear.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eye_01_delight.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eye_02_delight.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eye_close_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eye_close_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball_highlight_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball_highlight_01_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball_highlight_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball_highlight_02_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyeball_highlight_03_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebg.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_04.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_05.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_idle_delight_surp.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyebrow_no_angry_shy_worry.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyelid_down.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_eyelid_up.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_01_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_02_01_add_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_02_02_add_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_02_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_03_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_03_add_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_04.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_04_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_04_add_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_fin_05.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_foot.png",
+      "direct_written_mask_texels": 10448,
+      "direct_written_target_texels": 10009,
+      "propagated_texels": 3503,
+      "target_defined_texels": 13512
+    },
+    {
+      "name": "L_hand.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_hand_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_hand_add_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_hand_shadow_add.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_leg_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_leg_02.png",
+      "direct_written_mask_texels": 42363,
+      "direct_written_target_texels": 40677,
+      "propagated_texels": 9280,
+      "target_defined_texels": 49957
+    },
+    {
+      "name": "L_leg_shadow_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_leg_shadow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "L_leggings.png",
+      "direct_written_mask_texels": 20093,
+      "direct_written_target_texels": 19559,
+      "propagated_texels": 8686,
+      "target_defined_texels": 28245
+    },
+    {
+      "name": "L_leggings_lace.png",
+      "direct_written_mask_texels": 4741,
+      "direct_written_target_texels": 4487,
+      "propagated_texels": 3507,
+      "target_defined_texels": 7994
+    },
+    {
+      "name": "R_arm_01.png",
+      "direct_written_mask_texels": 10446,
+      "direct_written_target_texels": 10312,
+      "propagated_texels": 8411,
+      "target_defined_texels": 18723
+    },
+    {
+      "name": "R_arm_01_cloth.png",
+      "direct_written_mask_texels": 12168,
+      "direct_written_target_texels": 11781,
+      "propagated_texels": 11958,
+      "target_defined_texels": 23739
+    },
+    {
+      "name": "R_arm_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_arm_02_cloth_01.png",
+      "direct_written_mask_texels": 127941,
+      "direct_written_target_texels": 125878,
+      "propagated_texels": 4467,
+      "target_defined_texels": 130345
+    },
+    {
+      "name": "R_arm_02_cloth_02.png",
+      "direct_written_mask_texels": 8101,
+      "direct_written_target_texels": 7256,
+      "propagated_texels": 21480,
+      "target_defined_texels": 28736
+    },
+    {
+      "name": "R_arm_02_shadow.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_arm_lace_01.png",
+      "direct_written_mask_texels": 6626,
+      "direct_written_target_texels": 5632,
+      "propagated_texels": 761,
+      "target_defined_texels": 6393
+    },
+    {
+      "name": "R_arm_lace_02.png",
+      "direct_written_mask_texels": 8571,
+      "direct_written_target_texels": 8324,
+      "propagated_texels": 7583,
+      "target_defined_texels": 15907
+    },
+    {
+      "name": "R_balltouch.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_balltouch_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_body_cloth.png",
+      "direct_written_mask_texels": 42170,
+      "direct_written_target_texels": 39792,
+      "propagated_texels": 10318,
+      "target_defined_texels": 50110
+    },
+    {
+      "name": "R_boob.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_ear.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_ear_shadow_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_ear_shadow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eye_01_delight.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eye_02_delight.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eye_close_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eye_close_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyeball.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyeball_highlight_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyeball_highlight_01_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyeball_highlight_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyeball_highlight_02_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebg.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_04.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_05.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_idle_delight_surp.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyebrow_no_angry_shy_worry.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyelid_down.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_eyelid_up.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_03_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_03_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_04_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_fin_04_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_foot.png",
+      "direct_written_mask_texels": 11789,
+      "direct_written_target_texels": 11282,
+      "propagated_texels": 3650,
+      "target_defined_texels": 14932
+    },
+    {
+      "name": "R_hand.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_leg_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_leg_02.png",
+      "direct_written_mask_texels": 43597,
+      "direct_written_target_texels": 41497,
+      "propagated_texels": 14650,
+      "target_defined_texels": 56147
+    },
+    {
+      "name": "R_leg_shadow_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_leg_shadow_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "R_leggings.png",
+      "direct_written_mask_texels": 38045,
+      "direct_written_target_texels": 37109,
+      "propagated_texels": 65,
+      "target_defined_texels": 37174
+    },
+    {
+      "name": "R_leggings_lace.png",
+      "direct_written_mask_texels": 7021,
+      "direct_written_target_texels": 6195,
+      "propagated_texels": 3764,
+      "target_defined_texels": 9959
+    },
+    {
+      "name": "body_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "body_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "body_cloth_01.png",
+      "direct_written_mask_texels": 42372,
+      "direct_written_target_texels": 38754,
+      "propagated_texels": 127,
+      "target_defined_texels": 38881
+    },
+    {
+      "name": "body_cloth_02.png",
+      "direct_written_mask_texels": 38633,
+      "direct_written_target_texels": 38181,
+      "propagated_texels": 14831,
+      "target_defined_texels": 53012
+    },
+    {
+      "name": "body_cloth_02_lace_01.png",
+      "direct_written_mask_texels": 2449,
+      "direct_written_target_texels": 2108,
+      "propagated_texels": 3708,
+      "target_defined_texels": 5816
+    },
+    {
+      "name": "body_cloth_02_lace_02.png",
+      "direct_written_mask_texels": 1122,
+      "direct_written_target_texels": 961,
+      "propagated_texels": 2219,
+      "target_defined_texels": 3180
+    },
+    {
+      "name": "bra_strap_01.png",
+      "direct_written_mask_texels": 2054,
+      "direct_written_target_texels": 1465,
+      "propagated_texels": 19,
+      "target_defined_texels": 1484
+    },
+    {
+      "name": "bra_strap_02.png",
+      "direct_written_mask_texels": 549,
+      "direct_written_target_texels": 448,
+      "propagated_texels": 748,
+      "target_defined_texels": 1196
+    },
+    {
+      "name": "effect_01_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "effect_02_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "effect_02_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "face_highlight_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "face_highlight_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_03_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_03_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_04_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_04_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_04_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_04_04.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_05.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_06.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_07.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_08.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_09.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_10.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_11.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_12.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_13.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_14.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_15.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_16.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_17_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_17_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_18.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_19.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_20.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_21.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_22.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_23.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_24.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_25.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_26.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hair_flower.png",
+      "direct_written_mask_texels": 10181,
+      "direct_written_target_texels": 9928,
+      "propagated_texels": 85,
+      "target_defined_texels": 10013
+    },
+    {
+      "name": "hair_ribbon_01.png",
+      "direct_written_mask_texels": 1772,
+      "direct_written_target_texels": 1432,
+      "propagated_texels": 52,
+      "target_defined_texels": 1484
+    },
+    {
+      "name": "hair_ribbon_02.png",
+      "direct_written_mask_texels": 1709,
+      "direct_written_target_texels": 1251,
+      "propagated_texels": 132,
+      "target_defined_texels": 1383
+    },
+    {
+      "name": "hair_ribbon_03.png",
+      "direct_written_mask_texels": 2657,
+      "direct_written_target_texels": 1698,
+      "propagated_texels": 262,
+      "target_defined_texels": 1960
+    },
+    {
+      "name": "hair_ribbon_04.png",
+      "direct_written_mask_texels": 2449,
+      "direct_written_target_texels": 1946,
+      "propagated_texels": 459,
+      "target_defined_texels": 2405
+    },
+    {
+      "name": "hair_shadow.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hairpin.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "hairpin_shadow.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "head.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "lace_01.png",
+      "direct_written_mask_texels": 9393,
+      "direct_written_target_texels": 8860,
+      "propagated_texels": 1627,
+      "target_defined_texels": 10487
+    },
+    {
+      "name": "lace_02.png",
+      "direct_written_mask_texels": 11735,
+      "direct_written_target_texels": 11077,
+      "propagated_texels": 7384,
+      "target_defined_texels": 18461
+    },
+    {
+      "name": "lace_03.png",
+      "direct_written_mask_texels": 6931,
+      "direct_written_target_texels": 6522,
+      "propagated_texels": 5828,
+      "target_defined_texels": 12350
+    },
+    {
+      "name": "lace_04.png",
+      "direct_written_mask_texels": 7456,
+      "direct_written_target_texels": 6823,
+      "propagated_texels": 7391,
+      "target_defined_texels": 14214
+    },
+    {
+      "name": "mouth.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_angry.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_delight.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_no.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_shy.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_smile.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_surp.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "mouth_worry.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "neck.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "neckling.png",
+      "direct_written_mask_texels": 929,
+      "direct_written_target_texels": 817,
+      "propagated_texels": 71,
+      "target_defined_texels": 888
+    },
+    {
+      "name": "neckt_collar.png",
+      "direct_written_mask_texels": 7705,
+      "direct_written_target_texels": 6991,
+      "propagated_texels": 1009,
+      "target_defined_texels": 8000
+    },
+    {
+      "name": "nose.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "skirt.png",
+      "direct_written_mask_texels": 74893,
+      "direct_written_target_texels": 72868,
+      "propagated_texels": 30323,
+      "target_defined_texels": 103191
+    },
+    {
+      "name": "skirt_back.png",
+      "direct_written_mask_texels": 14251,
+      "direct_written_target_texels": 13898,
+      "propagated_texels": 22819,
+      "target_defined_texels": 36717
+    },
+    {
+      "name": "weapon.png",
+      "direct_written_mask_texels": 78787,
+      "direct_written_target_texels": 74565,
+      "propagated_texels": 23300,
+      "target_defined_texels": 97865
+    },
+    {
+      "name": "weapon_acc.png",
+      "direct_written_mask_texels": 5594,
+      "direct_written_target_texels": 4632,
+      "propagated_texels": 25,
+      "target_defined_texels": 4657
+    },
+    {
+      "name": "weapon_highlight_01.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_02.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_03.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_04.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_05.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_06.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_07.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_08.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_09.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_10.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_11.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_highlight_12.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    },
+    {
+      "name": "weapon_ribbon_01.png",
+      "direct_written_mask_texels": 10159,
+      "direct_written_target_texels": 9573,
+      "propagated_texels": 566,
+      "target_defined_texels": 10139
+    },
+    {
+      "name": "weapon_ribbon_02.png",
+      "direct_written_mask_texels": 46835,
+      "direct_written_target_texels": 44418,
+      "propagated_texels": 1203,
+      "target_defined_texels": 45621
+    },
+    {
+      "name": "weapon_ribbon_03.png",
+      "direct_written_mask_texels": 18040,
+      "direct_written_target_texels": 14973,
+      "propagated_texels": 3091,
+      "target_defined_texels": 18064
+    },
+    {
+      "name": "weapon_ribbon_04.png",
+      "direct_written_mask_texels": 5349,
+      "direct_written_target_texels": 5129,
+      "propagated_texels": 2545,
+      "target_defined_texels": 7674
+    },
+    {
+      "name": "weapon_ribbon_05.png",
+      "direct_written_mask_texels": 50261,
+      "direct_written_target_texels": 45971,
+      "propagated_texels": 3522,
+      "target_defined_texels": 49493
+    },
+    {
+      "name": "weapon_ribbon_06.png",
+      "direct_written_mask_texels": 9925,
+      "direct_written_target_texels": 9439,
+      "propagated_texels": 4276,
+      "target_defined_texels": 13715
+    },
+    {
+      "name": "weapon_shadow.png",
+      "direct_written_mask_texels": 0,
+      "direct_written_target_texels": 0,
+      "propagated_texels": 0,
+      "target_defined_texels": 0
+    }
+  ]
+}

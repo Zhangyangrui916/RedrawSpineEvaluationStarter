@@ -1,0 +1,1092 @@
+{
+  "schema_version": 1,
+  "case_id": "real_art_continuous_dev_run12",
+  "skeleton": "skeleton.json",
+  "atlas": "skeleton.atlas",
+  "page_manifest": "page_manifest.json",
+  "source_attachments": "source_attachments",
+  "observations": [
+    {
+      "id": "obs_000",
+      "animation": "",
+      "time": 0.0,
+      "before": "observations/obs_000/before.png",
+      "after": "observations/obs_000/after.png"
+    },
+    {
+      "id": "obs_001",
+      "animation": "action",
+      "time": 3.099999,
+      "before": "observations/obs_001/before.png",
+      "after": "observations/obs_001/after.png"
+    },
+    {
+      "id": "obs_002",
+      "animation": "action",
+      "time": 2.6,
+      "before": "observations/obs_002/before.png",
+      "after": "observations/obs_002/after.png"
+    },
+    {
+      "id": "obs_003",
+      "animation": "angry",
+      "time": 1.3,
+      "before": "observations/obs_003/before.png",
+      "after": "observations/obs_003/after.png"
+    },
+    {
+      "id": "obs_004",
+      "animation": "action",
+      "time": 4.199998,
+      "before": "observations/obs_004/before.png",
+      "after": "observations/obs_004/after.png"
+    },
+    {
+      "id": "obs_005",
+      "animation": "action",
+      "time": 3.899998,
+      "before": "observations/obs_005/before.png",
+      "after": "observations/obs_005/after.png"
+    },
+    {
+      "id": "obs_006",
+      "animation": "action",
+      "time": 0.5,
+      "before": "observations/obs_006/before.png",
+      "after": "observations/obs_006/after.png"
+    },
+    {
+      "id": "obs_007",
+      "animation": "idle",
+      "time": 1.1,
+      "before": "observations/obs_007/before.png",
+      "after": "observations/obs_007/after.png"
+    },
+    {
+      "id": "obs_008",
+      "animation": "action",
+      "time": 0.3,
+      "before": "observations/obs_008/before.png",
+      "after": "observations/obs_008/after.png"
+    },
+    {
+      "id": "obs_009",
+      "animation": "action",
+      "time": 0.9,
+      "before": "observations/obs_009/before.png",
+      "after": "observations/obs_009/after.png"
+    }
+  ],
+  "viewport": {
+    "x": -1099,
+    "y": -3,
+    "width": 1856,
+    "height": 2288
+  },
+  "render_size": {
+    "width": 1856,
+    "height": 2288
+  },
+  "output_pages": [
+    {
+      "name": "L_arm.png",
+      "width": 137,
+      "height": 200
+    },
+    {
+      "name": "L_arm_02_add.png",
+      "width": 91,
+      "height": 141
+    },
+    {
+      "name": "L_arm_cloth.png",
+      "width": 196,
+      "height": 626
+    },
+    {
+      "name": "L_arm_cloth_01_add.png",
+      "width": 129,
+      "height": 371
+    },
+    {
+      "name": "L_arm_cloth_02_add.png",
+      "width": 135,
+      "height": 417
+    },
+    {
+      "name": "L_arm_lace.png",
+      "width": 98,
+      "height": 249
+    },
+    {
+      "name": "L_arm_lace_01_add.png",
+      "width": 115,
+      "height": 260
+    },
+    {
+      "name": "L_arm_lace_02_add.png",
+      "width": 98,
+      "height": 228
+    },
+    {
+      "name": "L_arm_shadow_add.png",
+      "width": 109,
+      "height": 332
+    },
+    {
+      "name": "L_balltouch.png",
+      "width": 86,
+      "height": 72
+    },
+    {
+      "name": "L_balltouch_shy.png",
+      "width": 86,
+      "height": 72
+    },
+    {
+      "name": "L_body_cloth.png",
+      "width": 542,
+      "height": 638
+    },
+    {
+      "name": "L_boob.png",
+      "width": 158,
+      "height": 141
+    },
+    {
+      "name": "L_boob_shadow_01.png",
+      "width": 10,
+      "height": 20
+    },
+    {
+      "name": "L_boob_shadow_02.png",
+      "width": 10,
+      "height": 16
+    },
+    {
+      "name": "L_boob_shadow_03.png",
+      "width": 14,
+      "height": 17
+    },
+    {
+      "name": "L_bra_strap.png",
+      "width": 78,
+      "height": 81
+    },
+    {
+      "name": "L_ear.png",
+      "width": 53,
+      "height": 39
+    },
+    {
+      "name": "L_eye_01_delight.png",
+      "width": 61,
+      "height": 28
+    },
+    {
+      "name": "L_eye_02_delight.png",
+      "width": 53,
+      "height": 29
+    },
+    {
+      "name": "L_eye_close_01.png",
+      "width": 58,
+      "height": 31
+    },
+    {
+      "name": "L_eye_close_02.png",
+      "width": 55,
+      "height": 25
+    },
+    {
+      "name": "L_eyeball.png",
+      "width": 37,
+      "height": 37
+    },
+    {
+      "name": "L_eyeball_highlight_01.png",
+      "width": 12,
+      "height": 10
+    },
+    {
+      "name": "L_eyeball_highlight_01_shy.png",
+      "width": 5,
+      "height": 7
+    },
+    {
+      "name": "L_eyeball_highlight_02.png",
+      "width": 7,
+      "height": 7
+    },
+    {
+      "name": "L_eyeball_highlight_02_shy.png",
+      "width": 15,
+      "height": 15
+    },
+    {
+      "name": "L_eyeball_highlight_03_shy.png",
+      "width": 9,
+      "height": 12
+    },
+    {
+      "name": "L_eyebg.png",
+      "width": 52,
+      "height": 35
+    },
+    {
+      "name": "L_eyebrow_02.png",
+      "width": 39,
+      "height": 17
+    },
+    {
+      "name": "L_eyebrow_03.png",
+      "width": 67,
+      "height": 21
+    },
+    {
+      "name": "L_eyebrow_04.png",
+      "width": 43,
+      "height": 17
+    },
+    {
+      "name": "L_eyebrow_05.png",
+      "width": 26,
+      "height": 18
+    },
+    {
+      "name": "L_eyebrow_idle_delight_surp.png",
+      "width": 28,
+      "height": 29
+    },
+    {
+      "name": "L_eyebrow_no_angry_shy_worry.png",
+      "width": 40,
+      "height": 16
+    },
+    {
+      "name": "L_eyelid_down.png",
+      "width": 45,
+      "height": 34
+    },
+    {
+      "name": "L_eyelid_up.png",
+      "width": 66,
+      "height": 40
+    },
+    {
+      "name": "L_fin_01.png",
+      "width": 67,
+      "height": 29
+    },
+    {
+      "name": "L_fin_01_add.png",
+      "width": 69,
+      "height": 42
+    },
+    {
+      "name": "L_fin_02.png",
+      "width": 92,
+      "height": 31
+    },
+    {
+      "name": "L_fin_02_01_add_02.png",
+      "width": 32,
+      "height": 35
+    },
+    {
+      "name": "L_fin_02_02_add_02.png",
+      "width": 31,
+      "height": 21
+    },
+    {
+      "name": "L_fin_02_add.png",
+      "width": 94,
+      "height": 37
+    },
+    {
+      "name": "L_fin_03.png",
+      "width": 89,
+      "height": 38
+    },
+    {
+      "name": "L_fin_03_add.png",
+      "width": 100,
+      "height": 48
+    },
+    {
+      "name": "L_fin_03_add_02.png",
+      "width": 29,
+      "height": 38
+    },
+    {
+      "name": "L_fin_04.png",
+      "width": 81,
+      "height": 29
+    },
+    {
+      "name": "L_fin_04_add.png",
+      "width": 85,
+      "height": 46
+    },
+    {
+      "name": "L_fin_04_add_02.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "L_fin_05.png",
+      "width": 59,
+      "height": 27
+    },
+    {
+      "name": "L_foot.png",
+      "width": 87,
+      "height": 239
+    },
+    {
+      "name": "L_hand.png",
+      "width": 84,
+      "height": 68
+    },
+    {
+      "name": "L_hand_add.png",
+      "width": 83,
+      "height": 64
+    },
+    {
+      "name": "L_hand_add_02.png",
+      "width": 83,
+      "height": 86
+    },
+    {
+      "name": "L_hand_shadow_add.png",
+      "width": 152,
+      "height": 98
+    },
+    {
+      "name": "L_leg_01.png",
+      "width": 138,
+      "height": 330
+    },
+    {
+      "name": "L_leg_02.png",
+      "width": 189,
+      "height": 588
+    },
+    {
+      "name": "L_leg_shadow_01.png",
+      "width": 131,
+      "height": 557
+    },
+    {
+      "name": "L_leg_shadow_02.png",
+      "width": 196,
+      "height": 399
+    },
+    {
+      "name": "L_leggings.png",
+      "width": 140,
+      "height": 301
+    },
+    {
+      "name": "L_leggings_lace.png",
+      "width": 161,
+      "height": 125
+    },
+    {
+      "name": "R_arm_01.png",
+      "width": 103,
+      "height": 369
+    },
+    {
+      "name": "R_arm_01_cloth.png",
+      "width": 105,
+      "height": 334
+    },
+    {
+      "name": "R_arm_02.png",
+      "width": 198,
+      "height": 218
+    },
+    {
+      "name": "R_arm_02_cloth_01.png",
+      "width": 371,
+      "height": 956
+    },
+    {
+      "name": "R_arm_02_cloth_02.png",
+      "width": 200,
+      "height": 576
+    },
+    {
+      "name": "R_arm_02_shadow.png",
+      "width": 307,
+      "height": 582
+    },
+    {
+      "name": "R_arm_lace_01.png",
+      "width": 136,
+      "height": 254
+    },
+    {
+      "name": "R_arm_lace_02.png",
+      "width": 130,
+      "height": 257
+    },
+    {
+      "name": "R_balltouch.png",
+      "width": 98,
+      "height": 90
+    },
+    {
+      "name": "R_balltouch_shy.png",
+      "width": 98,
+      "height": 90
+    },
+    {
+      "name": "R_body_cloth.png",
+      "width": 183,
+      "height": 627
+    },
+    {
+      "name": "R_boob.png",
+      "width": 163,
+      "height": 146
+    },
+    {
+      "name": "R_ear.png",
+      "width": 41,
+      "height": 80
+    },
+    {
+      "name": "R_ear_shadow_01.png",
+      "width": 37,
+      "height": 72
+    },
+    {
+      "name": "R_ear_shadow_02.png",
+      "width": 37,
+      "height": 55
+    },
+    {
+      "name": "R_eye_01_delight.png",
+      "width": 64,
+      "height": 47
+    },
+    {
+      "name": "R_eye_02_delight.png",
+      "width": 75,
+      "height": 47
+    },
+    {
+      "name": "R_eye_close_01.png",
+      "width": 84,
+      "height": 39
+    },
+    {
+      "name": "R_eye_close_02.png",
+      "width": 81,
+      "height": 48
+    },
+    {
+      "name": "R_eyeball.png",
+      "width": 34,
+      "height": 40
+    },
+    {
+      "name": "R_eyeball_highlight_01.png",
+      "width": 7,
+      "height": 5
+    },
+    {
+      "name": "R_eyeball_highlight_01_shy.png",
+      "width": 10,
+      "height": 12
+    },
+    {
+      "name": "R_eyeball_highlight_02.png",
+      "width": 12,
+      "height": 10
+    },
+    {
+      "name": "R_eyeball_highlight_02_shy.png",
+      "width": 15,
+      "height": 20
+    },
+    {
+      "name": "R_eyebg.png",
+      "width": 54,
+      "height": 48
+    },
+    {
+      "name": "R_eyebrow_02.png",
+      "width": 55,
+      "height": 32
+    },
+    {
+      "name": "R_eyebrow_03.png",
+      "width": 64,
+      "height": 47
+    },
+    {
+      "name": "R_eyebrow_04.png",
+      "width": 35,
+      "height": 28
+    },
+    {
+      "name": "R_eyebrow_05.png",
+      "width": 7,
+      "height": 27
+    },
+    {
+      "name": "R_eyebrow_idle_delight_surp.png",
+      "width": 52,
+      "height": 11
+    },
+    {
+      "name": "R_eyebrow_no_angry_shy_worry.png",
+      "width": 49,
+      "height": 37
+    },
+    {
+      "name": "R_eyelid_down.png",
+      "width": 61,
+      "height": 56
+    },
+    {
+      "name": "R_eyelid_up.png",
+      "width": 81,
+      "height": 77
+    },
+    {
+      "name": "R_fin_01.png",
+      "width": 48,
+      "height": 58
+    },
+    {
+      "name": "R_fin_02.png",
+      "width": 64,
+      "height": 67
+    },
+    {
+      "name": "R_fin_03_01.png",
+      "width": 41,
+      "height": 51
+    },
+    {
+      "name": "R_fin_03_02.png",
+      "width": 59,
+      "height": 38
+    },
+    {
+      "name": "R_fin_04_01.png",
+      "width": 25,
+      "height": 47
+    },
+    {
+      "name": "R_fin_04_02.png",
+      "width": 47,
+      "height": 53
+    },
+    {
+      "name": "R_foot.png",
+      "width": 86,
+      "height": 247
+    },
+    {
+      "name": "R_hand.png",
+      "width": 72,
+      "height": 100
+    },
+    {
+      "name": "R_leg_01.png",
+      "width": 244,
+      "height": 323
+    },
+    {
+      "name": "R_leg_02.png",
+      "width": 277,
+      "height": 542
+    },
+    {
+      "name": "R_leg_shadow_01.png",
+      "width": 149,
+      "height": 292
+    },
+    {
+      "name": "R_leg_shadow_02.png",
+      "width": 223,
+      "height": 103
+    },
+    {
+      "name": "R_leggings.png",
+      "width": 182,
+      "height": 305
+    },
+    {
+      "name": "R_leggings_lace.png",
+      "width": 174,
+      "height": 131
+    },
+    {
+      "name": "body_01.png",
+      "width": 317,
+      "height": 312
+    },
+    {
+      "name": "body_02.png",
+      "width": 307,
+      "height": 389
+    },
+    {
+      "name": "body_cloth_01.png",
+      "width": 493,
+      "height": 543
+    },
+    {
+      "name": "body_cloth_02.png",
+      "width": 295,
+      "height": 263
+    },
+    {
+      "name": "body_cloth_02_lace_01.png",
+      "width": 170,
+      "height": 105
+    },
+    {
+      "name": "body_cloth_02_lace_02.png",
+      "width": 109,
+      "height": 72
+    },
+    {
+      "name": "bra_strap_01.png",
+      "width": 30,
+      "height": 166
+    },
+    {
+      "name": "bra_strap_02.png",
+      "width": 53,
+      "height": 130
+    },
+    {
+      "name": "effect_01_01.png",
+      "width": 381,
+      "height": 340
+    },
+    {
+      "name": "effect_02_01.png",
+      "width": 152,
+      "height": 204
+    },
+    {
+      "name": "effect_02_02.png",
+      "width": 96,
+      "height": 124
+    },
+    {
+      "name": "face_highlight_01.png",
+      "width": 9,
+      "height": 8
+    },
+    {
+      "name": "face_highlight_02.png",
+      "width": 10,
+      "height": 7
+    },
+    {
+      "name": "hair_01.png",
+      "width": 75,
+      "height": 160
+    },
+    {
+      "name": "hair_02.png",
+      "width": 52,
+      "height": 194
+    },
+    {
+      "name": "hair_03_01.png",
+      "width": 209,
+      "height": 428
+    },
+    {
+      "name": "hair_03_02.png",
+      "width": 65,
+      "height": 206
+    },
+    {
+      "name": "hair_04_01.png",
+      "width": 55,
+      "height": 81
+    },
+    {
+      "name": "hair_04_02.png",
+      "width": 89,
+      "height": 92
+    },
+    {
+      "name": "hair_04_03.png",
+      "width": 92,
+      "height": 170
+    },
+    {
+      "name": "hair_04_04.png",
+      "width": 92,
+      "height": 344
+    },
+    {
+      "name": "hair_05.png",
+      "width": 43,
+      "height": 209
+    },
+    {
+      "name": "hair_06.png",
+      "width": 127,
+      "height": 145
+    },
+    {
+      "name": "hair_07.png",
+      "width": 112,
+      "height": 162
+    },
+    {
+      "name": "hair_08.png",
+      "width": 81,
+      "height": 170
+    },
+    {
+      "name": "hair_09.png",
+      "width": 45,
+      "height": 99
+    },
+    {
+      "name": "hair_10.png",
+      "width": 163,
+      "height": 138
+    },
+    {
+      "name": "hair_11.png",
+      "width": 53,
+      "height": 203
+    },
+    {
+      "name": "hair_12.png",
+      "width": 197,
+      "height": 93
+    },
+    {
+      "name": "hair_13.png",
+      "width": 198,
+      "height": 226
+    },
+    {
+      "name": "hair_14.png",
+      "width": 185,
+      "height": 275
+    },
+    {
+      "name": "hair_15.png",
+      "width": 214,
+      "height": 251
+    },
+    {
+      "name": "hair_16.png",
+      "width": 217,
+      "height": 323
+    },
+    {
+      "name": "hair_17_01.png",
+      "width": 106,
+      "height": 94
+    },
+    {
+      "name": "hair_17_02.png",
+      "width": 77,
+      "height": 23
+    },
+    {
+      "name": "hair_18.png",
+      "width": 313,
+      "height": 149
+    },
+    {
+      "name": "hair_19.png",
+      "width": 479,
+      "height": 520
+    },
+    {
+      "name": "hair_20.png",
+      "width": 250,
+      "height": 238
+    },
+    {
+      "name": "hair_21.png",
+      "width": 346,
+      "height": 149
+    },
+    {
+      "name": "hair_22.png",
+      "width": 390,
+      "height": 337
+    },
+    {
+      "name": "hair_23.png",
+      "width": 136,
+      "height": 244
+    },
+    {
+      "name": "hair_24.png",
+      "width": 459,
+      "height": 471
+    },
+    {
+      "name": "hair_25.png",
+      "width": 144,
+      "height": 289
+    },
+    {
+      "name": "hair_26.png",
+      "width": 85,
+      "height": 41
+    },
+    {
+      "name": "hair_flower.png",
+      "width": 116,
+      "height": 113
+    },
+    {
+      "name": "hair_ribbon_01.png",
+      "width": 46,
+      "height": 61
+    },
+    {
+      "name": "hair_ribbon_02.png",
+      "width": 76,
+      "height": 57
+    },
+    {
+      "name": "hair_ribbon_03.png",
+      "width": 193,
+      "height": 141
+    },
+    {
+      "name": "hair_ribbon_04.png",
+      "width": 137,
+      "height": 260
+    },
+    {
+      "name": "hair_shadow.png",
+      "width": 198,
+      "height": 164
+    },
+    {
+      "name": "hairpin.png",
+      "width": 63,
+      "height": 81
+    },
+    {
+      "name": "hairpin_shadow.png",
+      "width": 46,
+      "height": 76
+    },
+    {
+      "name": "head.png",
+      "width": 207,
+      "height": 234
+    },
+    {
+      "name": "lace_01.png",
+      "width": 200,
+      "height": 143
+    },
+    {
+      "name": "lace_02.png",
+      "width": 221,
+      "height": 185
+    },
+    {
+      "name": "lace_03.png",
+      "width": 235,
+      "height": 121
+    },
+    {
+      "name": "lace_04.png",
+      "width": 265,
+      "height": 90
+    },
+    {
+      "name": "mouth.png",
+      "width": 49,
+      "height": 32
+    },
+    {
+      "name": "mouth_angry.png",
+      "width": 30,
+      "height": 18
+    },
+    {
+      "name": "mouth_delight.png",
+      "width": 50,
+      "height": 32
+    },
+    {
+      "name": "mouth_no.png",
+      "width": 38,
+      "height": 28
+    },
+    {
+      "name": "mouth_shy.png",
+      "width": 30,
+      "height": 18
+    },
+    {
+      "name": "mouth_smile.png",
+      "width": 50,
+      "height": 32
+    },
+    {
+      "name": "mouth_surp.png",
+      "width": 19,
+      "height": 24
+    },
+    {
+      "name": "mouth_worry.png",
+      "width": 30,
+      "height": 18
+    },
+    {
+      "name": "neck.png",
+      "width": 87,
+      "height": 128
+    },
+    {
+      "name": "neckling.png",
+      "width": 63,
+      "height": 67
+    },
+    {
+      "name": "neckt_collar.png",
+      "width": 181,
+      "height": 122
+    },
+    {
+      "name": "nose.png",
+      "width": 31,
+      "height": 40
+    },
+    {
+      "name": "skirt.png",
+      "width": 607,
+      "height": 330
+    },
+    {
+      "name": "skirt_back.png",
+      "width": 231,
+      "height": 220
+    },
+    {
+      "name": "weapon.png",
+      "width": 1004,
+      "height": 1819
+    },
+    {
+      "name": "weapon_acc.png",
+      "width": 78,
+      "height": 101
+    },
+    {
+      "name": "weapon_highlight_01.png",
+      "width": 42,
+      "height": 33
+    },
+    {
+      "name": "weapon_highlight_02.png",
+      "width": 19,
+      "height": 13
+    },
+    {
+      "name": "weapon_highlight_03.png",
+      "width": 18,
+      "height": 15
+    },
+    {
+      "name": "weapon_highlight_04.png",
+      "width": 24,
+      "height": 50
+    },
+    {
+      "name": "weapon_highlight_05.png",
+      "width": 87,
+      "height": 66
+    },
+    {
+      "name": "weapon_highlight_06.png",
+      "width": 187,
+      "height": 191
+    },
+    {
+      "name": "weapon_highlight_07.png",
+      "width": 98,
+      "height": 106
+    },
+    {
+      "name": "weapon_highlight_08.png",
+      "width": 160,
+      "height": 112
+    },
+    {
+      "name": "weapon_highlight_09.png",
+      "width": 106,
+      "height": 106
+    },
+    {
+      "name": "weapon_highlight_10.png",
+      "width": 30,
+      "height": 86
+    },
+    {
+      "name": "weapon_highlight_11.png",
+      "width": 163,
+      "height": 141
+    },
+    {
+      "name": "weapon_highlight_12.png",
+      "width": 106,
+      "height": 115
+    },
+    {
+      "name": "weapon_ribbon_01.png",
+      "width": 127,
+      "height": 132
+    },
+    {
+      "name": "weapon_ribbon_02.png",
+      "width": 207,
+      "height": 533
+    },
+    {
+      "name": "weapon_ribbon_03.png",
+      "width": 333,
+      "height": 843
+    },
+    {
+      "name": "weapon_ribbon_04.png",
+      "width": 95,
+      "height": 126
+    },
+    {
+      "name": "weapon_ribbon_05.png",
+      "width": 215,
+      "height": 801
+    },
+    {
+      "name": "weapon_ribbon_06.png",
+      "width": 101,
+      "height": 579
+    },
+    {
+      "name": "weapon_shadow.png",
+      "width": 108,
+      "height": 294
+    }
+  ]
+}
