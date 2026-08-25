@@ -1,0 +1,218 @@
+[
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/replay/run8_replay_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\replay_run_8\\replay_report.json",
+    "bytes": 8023,
+    "sha256": "4e48e2aae8debda8fb31e636a628a6025a294cb2403e2a897a73caa2d72dabbc"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/replay/run11_replay_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\replay_run_11\\replay_report.json",
+    "bytes": 8044,
+    "sha256": "e62b2bfb26ce33d0f2e8b005be2fc6d905cc0d9ec956c1d33a82bbdfd6c6c77f"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/replay/run12_replay_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\replay_run_12\\replay_report.json",
+    "bytes": 8024,
+    "sha256": "585412e918822925e5af3a79fb079c642b001525eb9438e922af4db70502a32f"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/operator/action_0_1_forward_adjoint_check.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\operator_check_action_0_1\\report.json",
+    "bytes": 331,
+    "sha256": "ba89500275375d34c21077a25cf826a6615e3c92d42a456f49fb503623fc547f"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/operator/run12_energy_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\operator_energy\\energy_report.json",
+    "bytes": 131370,
+    "sha256": "511ce44f396644038ac6ff5e140f80e4ffb15489092ce1122d2e903e77e3a489"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/operator/run8_energy_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\hidden_pilot_run8\\operator_energy\\energy_report.json",
+    "bytes": 131365,
+    "sha256": "634b048927d5fded021a3af8af1b7dbd6bf7eb188ec3788cb16ebfd20879c73b"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/baseline/run12_correct_pcg.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\baseline_pcg_20iter\\report.json",
+    "bytes": 671,
+    "sha256": "ea4a4ba09cc0fd0ece58abc9cc5517288af0d396e4dabf9a2f36092566ed52c7"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/baseline/run12_single_observation.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\baseline_single_observation\\report.json",
+    "bytes": 656,
+    "sha256": "701c4c85f851f6cb16314766ff16b4c95506cc48ba88c9d42eadc9473f8eb6de"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/baseline/run8_correct_pcg.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\hidden_pilot_run8\\baseline_pcg_20iter\\report.json",
+    "bytes": 670,
+    "sha256": "44f7a64e7a8c16b0fe2d1555884a98c7fb6eb2019d6cb58be8b072cec9eff0a6"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/baseline/run8_single_observation.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\hidden_pilot_run8\\baseline_single_observation\\report.json",
+    "bytes": 662,
+    "sha256": "045f8efe12d4ace4066f440421c696859976544396705203f490b696a406af21"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/scores/run12_correct.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\baseline_pcg_20iter_grade_exact_energy\\report.json",
+    "bytes": 2797,
+    "sha256": "a6f85415a29d3755f105445196a2f2b350f6b5b051c95cebbcdb46ba0800fde5"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/scores/run12_single_observation.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\baseline_single_observation_grade_exact_energy\\report.json",
+    "bytes": 2789,
+    "sha256": "52e99902230a2270d070652baa4ce13ac6d8e7fb935fed2fe47711dea4b754fa"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/scores/run12_claude_binary.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\public_dev_run12\\claude_binary_grade_exact_energy\\report.json",
+    "bytes": 2786,
+    "sha256": "4306ab82d3f24fc97dd52bed04ab1d2a044f4db30f5a30d7903488bd17d9c4a4"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/scores/run8_correct.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\hidden_pilot_run8\\grade_correct_exact_energy.json",
+    "bytes": 135,
+    "sha256": "e092b3e7c89cad5ac1b5636a0f74114d7577f5c835a29f3f414d9f280b9ce6f3"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/scores/run8_single_observation.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\hidden_pilot_run8\\grade_single_exact_energy.json",
+    "bytes": 136,
+    "sha256": "52ad058c12edc00040675e171053976a70c8e00bee02d0a146d256460f2f37b7"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/private/package_manifest.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\exports\\private_package\\package_manifest.json",
+    "bytes": 385,
+    "sha256": "7e1089e53fa48638437f5e31ee4f05a6782e533ef97392124c1393481fb8f4a8"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/private/thresholds.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\exports\\private_package\\grader\\thresholds.json",
+    "bytes": 661,
+    "sha256": "2af0dfb66b9146c3ea1e7e6d14ac2929aee09b8f2df7ab46b08fbe1dc500a7e8"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/private/support_report.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\exports\\private_package\\cases\\real_art_continuous_run8\\hidden\\support_report.json",
+    "bytes": 32707,
+    "sha256": "128da138464295fc5f02ea7dfbcdf92afb252af67d8a1803bc420528e9dfd472"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/private/provenance.json",
+    "source": "C:\\code\\RedrawSpineEvaluationAuthoring\\generated\\continuous_alpha_v2\\exports\\private_package\\cases\\real_art_continuous_run8\\hidden\\provenance.json",
+    "bytes": 40551,
+    "sha256": "3998f6614ca9cb0891cf9183af93aeb2324ef22b2e823dc1a89965f72378179c"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_Evaluation_Framework_Improvement_Plan.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_Evaluation_Framework_Improvement_Plan.md",
+    "bytes": 14299,
+    "sha256": "be97a855b77df9ac93ecb0a26b1cbdd658cc636bc9a036b2c0861c9e90ac6b60"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_Evaluation_Framework_Improvement_Plan_Update_2026-08-24.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_Evaluation_Framework_Improvement_Plan_Update_2026-08-24.md",
+    "bytes": 19848,
+    "sha256": "02bd3375044c286e33c95e14ed93684c2079e4ec4242474f6a52e9800e353c0b"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_Review_for_GPT.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_Review_for_GPT.md",
+    "bytes": 26355,
+    "sha256": "fa81b4d22776b197ebba301d283670f4476a526be9c512feb747c2fa1e15d8a8"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_Trial_Findings_for_GPT.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_Trial_Findings_for_GPT.md",
+    "bytes": 17523,
+    "sha256": "346a54530b81d3aa4a9951ae5092dc2f27a6234c6b72e1d2dc43aa9c3baf8ea2"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_\u4ece\u6362\u76ae\u5de5\u5177\u5230\u6d4b\u8bc4\u9898.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_\u4ece\u6362\u76ae\u5de5\u5177\u5230\u6d4b\u8bc4\u9898.md",
+    "bytes": 18348,
+    "sha256": "8ba011fd596ff7bb5b72c5d027eda7fb85c50edeaf432a95628c999b203a07d3"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_CodeAgent_Evaluation_Design_v1.docx",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_CodeAgent_Evaluation_Design_v1.docx",
+    "bytes": 70202,
+    "sha256": "eca027902d67df89dc2417b3213f9d5cacf9850f639d4a57e008dcaf83982275"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_CodeAgent_Evaluation_Design_v2.docx",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_CodeAgent_Evaluation_Design_v2.docx",
+    "bytes": 73314,
+    "sha256": "ecaf249442d50920841f5b80008777d68c2e21fc0b15b4553b51b5a742c330e0"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_CodeAgent_Evaluation_Design_v3.docx",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_CodeAgent_Evaluation_Design_v3.docx",
+    "bytes": 65911,
+    "sha256": "6339544ff7d1fe5ef58085ac4e0df9bc5030fedd321638fb7dc0978059895383"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/docs/history/RedrawSpine_CodeAgent_Evaluation_Design_v4.docx",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_CodeAgent_Evaluation_Design_v4.docx",
+    "bytes": 75237,
+    "sha256": "74d7cfb1917833e16909477fa205fe35b3b6aded72d99b9a38349d1446fa7784"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/grok_preview/README.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\Grok_V2_Render_Preview\\README.md",
+    "bytes": 372,
+    "sha256": "f2987f25ccf6b1bf8756a4e24a51a95169c99842e564926fc37053288cb88b8c"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/grok_preview/poses.json",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\Grok_V2_Render_Preview\\poses.json",
+    "bytes": 1641,
+    "sha256": "11e9c0406b3fbc96ab16246d5ca8b891862478834ea023b96e1df4060e410571"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/calibration/grok_preview/raw_render_metrics.json",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\Grok_V2_Render_Preview\\raw_render_metrics.json",
+    "bytes": 1079,
+    "sha256": "f01734a2759c976050ef78dfbdc63d91af1b92b95e471dc5398a1bfdac85d225"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/artifacts/dsbench/PACKAGE_INFO.json",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_V2_DSBench_Grader\\PACKAGE_INFO.json",
+    "bytes": 361,
+    "sha256": "8f62288d5abc8ac215d1908c1aae9111f00e036981d18eb5b6343776b8337afa"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/artifacts/dsbench/VALIDATION_SUMMARY.json",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_V2_DSBench_Grader\\VALIDATION_SUMMARY.json",
+    "bytes": 480,
+    "sha256": "fa36c5fe0eb41133adf0e781cb377381e9e389a7f42ca5c15fb25a07e668dd53"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/artifacts/dsbench/redrawspine_grader_bundle.tar.gz.parts.json",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_V2_DSBench_Grader\\redrawspine_grader_bundle.tar.gz.parts.json",
+    "bytes": 585,
+    "sha256": "e56cd9283bb3f37338d1d4b707ab80c8d640bc4ae4362f466bbb14f2645fa5ad"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/artifacts/dsbench/test_by_code.py",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_V2_DSBench_Grader\\test_by_code.py",
+    "bytes": 11780,
+    "sha256": "4f96ad432ed1f4ed4cd07fe348138aca55c69031a677d6bde49fb578039420ce"
+  },
+  {
+    "path": "C:/code/RedrawSpineEvaluationStarter/internal/artifacts/dsbench/UPLOAD_INSTRUCTIONS.md",
+    "source": "C:\\Users\\yurayzhang\\Downloads\\RedrawSpine_V2_DSBench_Grader\\UPLOAD_INSTRUCTIONS.md",
+    "bytes": 722,
+    "sha256": "84695f7be878f635be725412bff3bfa884787f2a04762268aa1a73822cd3117d"
+  }
+]

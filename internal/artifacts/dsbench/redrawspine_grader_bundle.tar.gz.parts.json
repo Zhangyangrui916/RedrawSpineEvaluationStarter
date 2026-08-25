@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "archive_name": "redrawspine_grader_bundle.tar.gz",
+  "archive_size": 38768742,
+  "archive_sha256": "e3bf1dd465ecb201e5df6908a1d664571e3521365ef9eb380cd977e482849f11",
+  "parts": [
+    {
+      "name": "redrawspine_grader_bundle.tar.gz.part000",
+      "size": 20971520,
+      "sha256": "2dea766dbc08830918c71b53ef1ed0a00682e8ba15cd29f893c73b789674d9f0"
+    },
+    {
+      "name": "redrawspine_grader_bundle.tar.gz.part001",
+      "size": 17797222,
+      "sha256": "9b037c40fe22b5766a8d2a6ca018e64dc260babd57eb50c5322f41b715914749"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "poses": [
+    {"id": "action_0_10", "candidate_distance": 0.0006426883603845446, "noop_distance": 0.027600919030840273, "raw_normalized_quality": 0.9767149651921683},
+    {"id": "action_1_00", "candidate_distance": 0.0005576855847837085, "noop_distance": 0.02569638666934401, "raw_normalized_quality": 0.9782971204497273},
+    {"id": "action_2_00", "candidate_distance": 0.0005566035012464717, "noop_distance": 0.025731351565787576, "raw_normalized_quality": 0.9783686643975242},
+    {"id": "angry_1_00", "candidate_distance": 0.0005837913407164168, "noop_distance": 0.027218945389148548, "raw_normalized_quality": 0.9785520220438919},
+    {"id": "idle_0_80", "candidate_distance": 0.0006169986305952329, "noop_distance": 0.027129101519096605, "raw_normalized_quality": 0.9772569456405265},
+    {"id": "surprise_0_50", "candidate_distance": 0.0005872516069967895, "noop_distance": 0.02732011592880159, "raw_normalized_quality": 0.9785047908103421}
+  ],
+  "mean_quality": 0.9779490847556968,
+  "bottom20_quality": 0.9769859554163474,
+  "six_pose_score": 0.9777564588878269
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "case_id": "static_mesh_seed_b",
+  "source_model": "assets/source_model",
+  "target_seed": 2003,
+  "target_generator": "band_limited_v2",
+  "animations": ["00_Run", "01_Dance", "04_Jumpping", "06_PunchAttack", "07_StatusEffect"],
+  "observation_budget": 7,
+  "hidden_pose_count": 24,
+  "candidate_time_step": 0.1,
+  "coverage": {
+    "edge_erode_texels": 0,
+    "min_union_gain_over_best_single": 0.2,
+    "max_best_single_fraction": 0.8
+  },
+  "viewport": {"x": -1300.0, "y": -650.0, "width": 2450.0, "height": 1900.0},
+  "render_size": {"width": 2450, "height": 1900}
+}

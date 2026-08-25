@@ -1,0 +1,4 @@
+Repository: https://github.com/EsotericSoftware/spine-runtimes
+Branch: 4.2
+Commit at download: b81e5a58ed38704aee4f866f0e0ac672623ce914
+Archive: https://codeload.github.com/EsotericSoftware/spine-runtimes/zip/refs/heads/4.2

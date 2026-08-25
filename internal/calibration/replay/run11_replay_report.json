@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "run": 11,
+  "source_skeleton_sha256": "a29538716ff933112070571452e43f9af64fae703e7722c0f4d3607f392785ec",
+  "analyzer_sha256": "dce1fbe8af76c3e0a3e09849890b8699aec720bbaf99628aad2975e219f37c85",
+  "viewport": {
+    "x": -1099,
+    "y": -3,
+    "width": 1856,
+    "height": 2288
+  },
+  "frames": 10,
+  "redraw_pages": 50,
+  "all_pages": 200,
+  "archived_page_sha256_matches": 49,
+  "archived_page_total_different_pixels": 287,
+  "final_written_mask_state_counts": {
+    "0": 2077227,
+    "128": 1034111,
+    "255": 2063556
+  },
+  "page_comparisons": [
+    {
+      "page": "L_arm_cloth.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_arm_cloth_01_add.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_arm_cloth_02_add.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_arm_lace.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_arm_lace_01_add.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_arm_lace_02_add.png",
+      "sha256_match": false,
+      "different_pixels": 287,
+      "mean_absolute_rgba_error": 0.6305831543143573
+    },
+    {
+      "page": "L_body_cloth.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_bra_strap.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_foot.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_leg_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_leggings.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "L_leggings_lace.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_01_cloth.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_02_cloth_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_02_cloth_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_lace_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_arm_lace_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_body_cloth.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_foot.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_leg_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_leggings.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "R_leggings_lace.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "body_cloth_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "body_cloth_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "body_cloth_02_lace_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "body_cloth_02_lace_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "bra_strap_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "bra_strap_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "hair_flower.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "hair_ribbon_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "hair_ribbon_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "hair_ribbon_03.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "hair_ribbon_04.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "lace_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "lace_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "lace_03.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "lace_04.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "neckling.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "neckt_collar.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "skirt.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "skirt_back.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_acc.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_01.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_02.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_03.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_04.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_05.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    },
+    {
+      "page": "weapon_ribbon_06.png",
+      "sha256_match": true,
+      "different_pixels": 0,
+      "mean_absolute_rgba_error": 0.0
+    }
+  ]
+}

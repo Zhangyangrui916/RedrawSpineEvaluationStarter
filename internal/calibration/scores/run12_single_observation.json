@@ -1,0 +1,87 @@
+{
+  "thresholds": [
+    {
+      "threshold": 0.0001,
+      "support_texels": 1604189,
+      "alpha_nonzero_texels": 4685761,
+      "support_fraction": 0.3423539954342528,
+      "score": 0.8282708321280864,
+      "mean_quality": 0.8340967778171923,
+      "bottom20_quality": 0.8049670493716627,
+      "frames": [
+        {
+          "id": "validation_000",
+          "candidate_distance": 0.004561315715323385,
+          "noop_distance": 0.030842905951754044,
+          "quality": 0.8521113502628278
+        },
+        {
+          "id": "validation_001",
+          "candidate_distance": 0.005649504586279593,
+          "noop_distance": 0.028698785242447292,
+          "quality": 0.8031448182090032
+        },
+        {
+          "id": "validation_002",
+          "candidate_distance": 0.005125723516098928,
+          "noop_distance": 0.02891189197940751,
+          "quality": 0.8227122763334742
+        },
+        {
+          "id": "validation_003",
+          "candidate_distance": 0.00605457622108706,
+          "noop_distance": 0.02915902074334979,
+          "quality": 0.7923600976119793
+        },
+        {
+          "id": "validation_004",
+          "candidate_distance": 0.0039749541087609995,
+          "noop_distance": 0.030999651535394118,
+          "quality": 0.8717742325556681
+        },
+        {
+          "id": "validation_005",
+          "candidate_distance": 0.004583089212332208,
+          "noop_distance": 0.030724241766727185,
+          "quality": 0.8508314949810643
+        },
+        {
+          "id": "validation_006",
+          "candidate_distance": 0.005519721513854215,
+          "noop_distance": 0.030818678085194468,
+          "quality": 0.8208968762898747
+        },
+        {
+          "id": "validation_007",
+          "candidate_distance": 0.00458201982659624,
+          "noop_distance": 0.030726152670383623,
+          "quality": 0.8508755757480941
+        },
+        {
+          "id": "validation_008",
+          "candidate_distance": 0.005541934816525175,
+          "noop_distance": 0.030685599125297877,
+          "quality": 0.8193962322940054
+        },
+        {
+          "id": "validation_009",
+          "candidate_distance": 0.004847942952500508,
+          "noop_distance": 0.030622350684569404,
+          "quality": 0.8416861265067717
+        },
+        {
+          "id": "validation_010",
+          "candidate_distance": 0.004847942952500508,
+          "noop_distance": 0.030622350684569404,
+          "quality": 0.8416861265067717
+        },
+        {
+          "id": "validation_011",
+          "candidate_distance": 0.004847942952500508,
+          "noop_distance": 0.030622350684569404,
+          "quality": 0.8416861265067717
+        }
+      ]
+    }
+  ]
+}

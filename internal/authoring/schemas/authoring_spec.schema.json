@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://redrawspine.local/schemas/authoring_spec.schema.json",
+  "title": "Private RedrawSpine authoring specification",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "source_model",
+    "target_seed",
+    "animations",
+    "observation_budget",
+    "hidden_pose_count",
+    "coverage",
+    "viewport",
+    "render_size"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "case_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "source_model": {"type": "string"},
+    "target_seed": {"type": "integer", "minimum": 0},
+    "target_generator": {
+      "type": "string",
+      "enum": ["legacy_periodic_v1", "band_limited_v2"],
+      "default": "legacy_periodic_v1"
+    },
+    "animations": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "observation_budget": {"type": "integer", "minimum": 2},
+    "hidden_pose_count": {"type": "integer", "minimum": 1},
+    "candidate_time_step": {"type": "number", "exclusiveMinimum": 0, "default": 0.1},
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["edge_erode_texels", "min_union_gain_over_best_single", "max_best_single_fraction"],
+      "properties": {
+        "edge_erode_texels": {"type": "integer", "minimum": 0},
+        "min_union_gain_over_best_single": {"type": "number", "minimum": 0},
+        "max_best_single_fraction": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+      }
+    },
+    "viewport": {"$ref": "case.schema.json#/$defs/viewport"},
+    "render_size": {"$ref": "case.schema.json#/$defs/size"}
+  }
+}

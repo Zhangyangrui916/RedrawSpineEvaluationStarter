@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://redrawspine.local/schemas/case.schema.json",
+  "title": "Candidate-visible RedrawSpine case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "skeleton",
+    "atlas",
+    "page_manifest",
+    "source_attachments",
+    "observations",
+    "viewport",
+    "render_size",
+    "output_pages"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "case_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "skeleton": {"type": "string"},
+    "atlas": {"type": "string"},
+    "page_manifest": {"type": "string"},
+    "source_attachments": {"type": "string"},
+    "observations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "animation", "time", "before", "after"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^obs_[0-9]{3}$"},
+          "animation": {"type": "string"},
+          "time": {"type": "number", "minimum": 0},
+          "before": {"type": "string"},
+          "after": {"type": "string"}
+        }
+      }
+    },
+    "viewport": {"$ref": "#/$defs/viewport"},
+    "render_size": {"$ref": "#/$defs/size"},
+    "output_pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "width", "height"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+\\.png$"},
+          "width": {"type": "integer", "minimum": 1},
+          "height": {"type": "integer", "minimum": 1}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "size": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      }
+    },
+    "viewport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y", "width", "height"],
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "width": {"type": "number", "exclusiveMinimum": 0},
+        "height": {"type": "number", "exclusiveMinimum": 0}
+      }
+    }
+  }
+}

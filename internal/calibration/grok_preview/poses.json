@@ -1,0 +1,56 @@
+[
+  {
+    "id": "action_0_10",
+    "animation": "action",
+    "time": 0.1,
+    "source": "source/action_0_10.png",
+    "candidate": "candidate/action_0_10.png",
+    "reference": "reference/action_0_10.png",
+    "comparison": "comparison/action_0_10_compare.png"
+  },
+  {
+    "id": "action_1_00",
+    "animation": "action",
+    "time": 1.0,
+    "source": "source/action_1_00.png",
+    "candidate": "candidate/action_1_00.png",
+    "reference": "reference/action_1_00.png",
+    "comparison": "comparison/action_1_00_compare.png"
+  },
+  {
+    "id": "action_2_00",
+    "animation": "action",
+    "time": 2.0,
+    "source": "source/action_2_00.png",
+    "candidate": "candidate/action_2_00.png",
+    "reference": "reference/action_2_00.png",
+    "comparison": "comparison/action_2_00_compare.png"
+  },
+  {
+    "id": "angry_1_00",
+    "animation": "angry",
+    "time": 1.0,
+    "source": "source/angry_1_00.png",
+    "candidate": "candidate/angry_1_00.png",
+    "reference": "reference/angry_1_00.png",
+    "comparison": "comparison/angry_1_00_compare.png"
+  },
+  {
+    "id": "idle_0_80",
+    "animation": "idle",
+    "time": 0.8,
+    "source": "source/idle_0_80.png",
+    "candidate": "candidate/idle_0_80.png",
+    "reference": "reference/idle_0_80.png",
+    "comparison": "comparison/idle_0_80_compare.png"
+  },
+  {
+    "id": "surprise_0_50",
+    "animation": "surprise",
+    "time": 0.5,
+    "source": "source/surprise_0_50.png",
+    "candidate": "candidate/surprise_0_50.png",
+    "reference": "reference/surprise_0_50.png",
+    "comparison": "comparison/surprise_0_50_compare.png"
+  }
+]

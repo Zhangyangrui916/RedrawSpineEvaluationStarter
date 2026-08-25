@@ -1,0 +1,142 @@
+[
+  {
+    "region": "右手_张开朝侧前",
+    "page": "pages/page_000.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 65864
+  },
+  {
+    "region": "右手_张开朝内",
+    "page": "pages/page_001.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 65895
+  },
+  {
+    "region": "右手_张开朝前",
+    "page": "pages/page_002.png",
+    "width": 563,
+    "height": 498,
+    "opaque_pixels": 44997
+  },
+  {
+    "region": "右手_张开朝外",
+    "page": "pages/page_003.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 66065
+  },
+  {
+    "region": "右手_握拳",
+    "page": "pages/page_004.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 61457
+  },
+  {
+    "region": "右手_放松",
+    "page": "pages/page_005.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 62132
+  },
+  {
+    "region": "右腿",
+    "page": "pages/page_006.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 69842
+  },
+  {
+    "region": "头",
+    "page": "pages/page_007.png",
+    "width": 790,
+    "height": 580,
+    "opaque_pixels": 98156
+  },
+  {
+    "region": "头_开心",
+    "page": "pages/page_008.png",
+    "width": 790,
+    "height": 580,
+    "opaque_pixels": 96948
+  },
+  {
+    "region": "头_痛苦",
+    "page": "pages/page_009.png",
+    "width": 790,
+    "height": 580,
+    "opaque_pixels": 94542
+  },
+  {
+    "region": "头_闭眼",
+    "page": "pages/page_010.png",
+    "width": 790,
+    "height": 580,
+    "opaque_pixels": 94232
+  },
+  {
+    "region": "左手_握拳",
+    "page": "pages/page_011.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 57739
+  },
+  {
+    "region": "左手_放松",
+    "page": "pages/page_012.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 63181
+  },
+  {
+    "region": "左手武器",
+    "page": "pages/page_013.png",
+    "width": 1230,
+    "height": 622,
+    "opaque_pixels": 105051
+  },
+  {
+    "region": "左手武器2a",
+    "page": "pages/page_014.png",
+    "width": 622,
+    "height": 1230,
+    "opaque_pixels": 24776
+  },
+  {
+    "region": "左手武器2b",
+    "page": "pages/page_015.png",
+    "width": 622,
+    "height": 1230,
+    "opaque_pixels": 2745
+  },
+  {
+    "region": "左手武器2c",
+    "page": "pages/page_016.png",
+    "width": 1230,
+    "height": 622,
+    "opaque_pixels": 17319
+  },
+  {
+    "region": "左腿",
+    "page": "pages/page_017.png",
+    "width": 498,
+    "height": 718,
+    "opaque_pixels": 72388
+  },
+  {
+    "region": "背后头发2",
+    "page": "pages/page_018.png",
+    "width": 998,
+    "height": 850,
+    "opaque_pixels": 211880
+  },
+  {
+    "region": "躯干",
+    "page": "pages/page_019.png",
+    "width": 545,
+    "height": 648,
+    "opaque_pixels": 112790
+  }
+]

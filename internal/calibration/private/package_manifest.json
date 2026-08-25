@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "starter_public_case": "real_art_continuous_dev_run12",
+  "starter_final_case": "real_art_continuous_run8",
+  "private_case": "real_art_continuous_run8",
+  "support": {
+    "energy_threshold": 0.0001,
+    "support_texels": 1604189,
+    "alpha_nonzero_texels": 4685761,
+    "support_fraction": 0.3423539954342528
+  },
+  "resolved_threshold": 0.9
+}

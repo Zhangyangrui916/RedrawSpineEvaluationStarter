@@ -1,0 +1,7 @@
+authoring/build*/
+authoring/generated/
+artifacts/dsbench/*.part[0-9][0-9][0-9]
+private_package/
+__pycache__/
+*.tmp
+*.log

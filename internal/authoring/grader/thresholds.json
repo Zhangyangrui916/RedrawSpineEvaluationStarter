@@ -1,0 +1,7 @@
+{
+  "status": "frozen",
+  "overall_threshold": 0.9,
+  "validated_backend": "osmesa",
+  "validated_date": "2026-08-24",
+  "notes": "Frozen after Debian 13 OSMesa end-to-end validation. Reference=0.99598, cold-agent=0.99515, single-observation=0.67850, no-op=0.0."
+}

@@ -1,0 +1,1208 @@
+{
+  "energy_threshold": 0.0001,
+  "support_texels": 1604189,
+  "alpha_nonzero_texels": 4685761,
+  "support_fraction": 0.3423539954342528,
+  "page_reports": [
+    {
+      "name": "L_arm.png",
+      "support_texels": 2213,
+      "alpha_nonzero_texels": 18365,
+      "support_fraction": 0.12050095289953716
+    },
+    {
+      "name": "L_arm_02_add.png",
+      "support_texels": 2698,
+      "alpha_nonzero_texels": 7964,
+      "support_fraction": 0.338774485183325
+    },
+    {
+      "name": "L_arm_cloth.png",
+      "support_texels": 40740,
+      "alpha_nonzero_texels": 90666,
+      "support_fraction": 0.4493415392760241
+    },
+    {
+      "name": "L_arm_cloth_01_add.png",
+      "support_texels": 21026,
+      "alpha_nonzero_texels": 22677,
+      "support_fraction": 0.927194955240993
+    },
+    {
+      "name": "L_arm_cloth_02_add.png",
+      "support_texels": 11852,
+      "alpha_nonzero_texels": 37136,
+      "support_fraction": 0.3191512279190004
+    },
+    {
+      "name": "L_arm_lace.png",
+      "support_texels": 6148,
+      "alpha_nonzero_texels": 13055,
+      "support_fraction": 0.4709306779011873
+    },
+    {
+      "name": "L_arm_lace_01_add.png",
+      "support_texels": 9272,
+      "alpha_nonzero_texels": 13638,
+      "support_fraction": 0.6798650828567239
+    },
+    {
+      "name": "L_arm_lace_02_add.png",
+      "support_texels": 4498,
+      "alpha_nonzero_texels": 15530,
+      "support_fraction": 0.28963296844816483
+    },
+    {
+      "name": "L_arm_shadow_add.png",
+      "support_texels": 12244,
+      "alpha_nonzero_texels": 18551,
+      "support_fraction": 0.6600183278529459
+    },
+    {
+      "name": "L_balltouch.png",
+      "support_texels": 3305,
+      "alpha_nonzero_texels": 4091,
+      "support_fraction": 0.8078709362014177
+    },
+    {
+      "name": "L_balltouch_shy.png",
+      "support_texels": 1588,
+      "alpha_nonzero_texels": 4093,
+      "support_fraction": 0.3879794771561202
+    },
+    {
+      "name": "L_body_cloth.png",
+      "support_texels": 92268,
+      "alpha_nonzero_texels": 221893,
+      "support_fraction": 0.41582204035278264
+    },
+    {
+      "name": "L_boob.png",
+      "support_texels": 4193,
+      "alpha_nonzero_texels": 12690,
+      "support_fraction": 0.3304176516942474
+    },
+    {
+      "name": "L_boob_shadow_01.png",
+      "support_texels": 53,
+      "alpha_nonzero_texels": 112,
+      "support_fraction": 0.4732142857142857
+    },
+    {
+      "name": "L_boob_shadow_02.png",
+      "support_texels": 51,
+      "alpha_nonzero_texels": 78,
+      "support_fraction": 0.6538461538461539
+    },
+    {
+      "name": "L_boob_shadow_03.png",
+      "support_texels": 47,
+      "alpha_nonzero_texels": 137,
+      "support_fraction": 0.34306569343065696
+    },
+    {
+      "name": "L_bra_strap.png",
+      "support_texels": 820,
+      "alpha_nonzero_texels": 2930,
+      "support_fraction": 0.27986348122866894
+    },
+    {
+      "name": "L_ear.png",
+      "support_texels": 519,
+      "alpha_nonzero_texels": 1242,
+      "support_fraction": 0.4178743961352657
+    },
+    {
+      "name": "L_eye_01_delight.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 568,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "L_eye_02_delight.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 534,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "L_eye_close_01.png",
+      "support_texels": 292,
+      "alpha_nonzero_texels": 632,
+      "support_fraction": 0.4620253164556962
+    },
+    {
+      "name": "L_eye_close_02.png",
+      "support_texels": 293,
+      "alpha_nonzero_texels": 562,
+      "support_fraction": 0.5213523131672598
+    },
+    {
+      "name": "L_eyeball.png",
+      "support_texels": 742,
+      "alpha_nonzero_texels": 891,
+      "support_fraction": 0.8327721661054994
+    },
+    {
+      "name": "L_eyeball_highlight_01.png",
+      "support_texels": 63,
+      "alpha_nonzero_texels": 63,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "L_eyeball_highlight_01_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 13,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "L_eyeball_highlight_02.png",
+      "support_texels": 24,
+      "alpha_nonzero_texels": 24,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "L_eyeball_highlight_02_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 140,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "L_eyeball_highlight_03_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 66,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "L_eyebg.png",
+      "support_texels": 648,
+      "alpha_nonzero_texels": 1182,
+      "support_fraction": 0.5482233502538071
+    },
+    {
+      "name": "L_eyebrow_02.png",
+      "support_texels": 163,
+      "alpha_nonzero_texels": 167,
+      "support_fraction": 0.9760479041916168
+    },
+    {
+      "name": "L_eyebrow_03.png",
+      "support_texels": 400,
+      "alpha_nonzero_texels": 566,
+      "support_fraction": 0.7067137809187279
+    },
+    {
+      "name": "L_eyebrow_04.png",
+      "support_texels": 196,
+      "alpha_nonzero_texels": 202,
+      "support_fraction": 0.9702970297029703
+    },
+    {
+      "name": "L_eyebrow_05.png",
+      "support_texels": 116,
+      "alpha_nonzero_texels": 124,
+      "support_fraction": 0.9354838709677419
+    },
+    {
+      "name": "L_eyebrow_idle_delight_surp.png",
+      "support_texels": 176,
+      "alpha_nonzero_texels": 344,
+      "support_fraction": 0.5116279069767442
+    },
+    {
+      "name": "L_eyebrow_no_angry_shy_worry.png",
+      "support_texels": 188,
+      "alpha_nonzero_texels": 192,
+      "support_fraction": 0.9791666666666666
+    },
+    {
+      "name": "L_eyelid_down.png",
+      "support_texels": 968,
+      "alpha_nonzero_texels": 974,
+      "support_fraction": 0.9938398357289527
+    },
+    {
+      "name": "L_eyelid_up.png",
+      "support_texels": 1649,
+      "alpha_nonzero_texels": 1846,
+      "support_fraction": 0.8932827735644637
+    },
+    {
+      "name": "L_fin_01.png",
+      "support_texels": 1028,
+      "alpha_nonzero_texels": 1214,
+      "support_fraction": 0.8467874794069192
+    },
+    {
+      "name": "L_fin_01_add.png",
+      "support_texels": 1039,
+      "alpha_nonzero_texels": 1458,
+      "support_fraction": 0.7126200274348422
+    },
+    {
+      "name": "L_fin_02.png",
+      "support_texels": 1376,
+      "alpha_nonzero_texels": 1385,
+      "support_fraction": 0.9935018050541516
+    },
+    {
+      "name": "L_fin_02_01_add_02.png",
+      "support_texels": 377,
+      "alpha_nonzero_texels": 689,
+      "support_fraction": 0.5471698113207547
+    },
+    {
+      "name": "L_fin_02_02_add_02.png",
+      "support_texels": 219,
+      "alpha_nonzero_texels": 465,
+      "support_fraction": 0.47096774193548385
+    },
+    {
+      "name": "L_fin_02_add.png",
+      "support_texels": 1582,
+      "alpha_nonzero_texels": 2080,
+      "support_fraction": 0.760576923076923
+    },
+    {
+      "name": "L_fin_03.png",
+      "support_texels": 1408,
+      "alpha_nonzero_texels": 1837,
+      "support_fraction": 0.7664670658682635
+    },
+    {
+      "name": "L_fin_03_add.png",
+      "support_texels": 1666,
+      "alpha_nonzero_texels": 3182,
+      "support_fraction": 0.5235700817096166
+    },
+    {
+      "name": "L_fin_03_add_02.png",
+      "support_texels": 326,
+      "alpha_nonzero_texels": 733,
+      "support_fraction": 0.44474761255115963
+    },
+    {
+      "name": "L_fin_04.png",
+      "support_texels": 853,
+      "alpha_nonzero_texels": 1016,
+      "support_fraction": 0.8395669291338582
+    },
+    {
+      "name": "L_fin_04_add.png",
+      "support_texels": 1245,
+      "alpha_nonzero_texels": 1825,
+      "support_fraction": 0.6821917808219178
+    },
+    {
+      "name": "L_fin_04_add_02.png",
+      "support_texels": 347,
+      "alpha_nonzero_texels": 658,
+      "support_fraction": 0.5273556231003039
+    },
+    {
+      "name": "L_fin_05.png",
+      "support_texels": 535,
+      "alpha_nonzero_texels": 954,
+      "support_fraction": 0.560796645702306
+    },
+    {
+      "name": "L_foot.png",
+      "support_texels": 10917,
+      "alpha_nonzero_texels": 14626,
+      "support_fraction": 0.7464105018460276
+    },
+    {
+      "name": "L_hand.png",
+      "support_texels": 1548,
+      "alpha_nonzero_texels": 4533,
+      "support_fraction": 0.3414956982131039
+    },
+    {
+      "name": "L_hand_add.png",
+      "support_texels": 2704,
+      "alpha_nonzero_texels": 3746,
+      "support_fraction": 0.7218366257341164
+    },
+    {
+      "name": "L_hand_add_02.png",
+      "support_texels": 4385,
+      "alpha_nonzero_texels": 5056,
+      "support_fraction": 0.8672863924050633
+    },
+    {
+      "name": "L_hand_shadow_add.png",
+      "support_texels": 2519,
+      "alpha_nonzero_texels": 6891,
+      "support_fraction": 0.36554926716006386
+    },
+    {
+      "name": "L_leg_01.png",
+      "support_texels": 2584,
+      "alpha_nonzero_texels": 37493,
+      "support_fraction": 0.06891953164590724
+    },
+    {
+      "name": "L_leg_02.png",
+      "support_texels": 42159,
+      "alpha_nonzero_texels": 69000,
+      "support_fraction": 0.611
+    },
+    {
+      "name": "L_leg_shadow_01.png",
+      "support_texels": 13135,
+      "alpha_nonzero_texels": 41378,
+      "support_fraction": 0.3174392189085988
+    },
+    {
+      "name": "L_leg_shadow_02.png",
+      "support_texels": 7745,
+      "alpha_nonzero_texels": 59667,
+      "support_fraction": 0.12980374411316137
+    },
+    {
+      "name": "L_leggings.png",
+      "support_texels": 20249,
+      "alpha_nonzero_texels": 31821,
+      "support_fraction": 0.6363407812450897
+    },
+    {
+      "name": "L_leggings_lace.png",
+      "support_texels": 5713,
+      "alpha_nonzero_texels": 8915,
+      "support_fraction": 0.6408300616937745
+    },
+    {
+      "name": "R_arm_01.png",
+      "support_texels": 12175,
+      "alpha_nonzero_texels": 19029,
+      "support_fraction": 0.6398129171264911
+    },
+    {
+      "name": "R_arm_01_cloth.png",
+      "support_texels": 12964,
+      "alpha_nonzero_texels": 25180,
+      "support_fraction": 0.5148530579825258
+    },
+    {
+      "name": "R_arm_02.png",
+      "support_texels": 4720,
+      "alpha_nonzero_texels": 16551,
+      "support_fraction": 0.28517914325418403
+    },
+    {
+      "name": "R_arm_02_cloth_01.png",
+      "support_texels": 129492,
+      "alpha_nonzero_texels": 239554,
+      "support_fraction": 0.5405545305025172
+    },
+    {
+      "name": "R_arm_02_cloth_02.png",
+      "support_texels": 10725,
+      "alpha_nonzero_texels": 61667,
+      "support_fraction": 0.1739179788217361
+    },
+    {
+      "name": "R_arm_02_shadow.png",
+      "support_texels": 42690,
+      "alpha_nonzero_texels": 107605,
+      "support_fraction": 0.3967287765438409
+    },
+    {
+      "name": "R_arm_lace_01.png",
+      "support_texels": 6021,
+      "alpha_nonzero_texels": 19499,
+      "support_fraction": 0.30878506590081545
+    },
+    {
+      "name": "R_arm_lace_02.png",
+      "support_texels": 9807,
+      "alpha_nonzero_texels": 19887,
+      "support_fraction": 0.4931362196409715
+    },
+    {
+      "name": "R_balltouch.png",
+      "support_texels": 4881,
+      "alpha_nonzero_texels": 6279,
+      "support_fraction": 0.7773530817009078
+    },
+    {
+      "name": "R_balltouch_shy.png",
+      "support_texels": 2929,
+      "alpha_nonzero_texels": 6278,
+      "support_fraction": 0.46654985664224274
+    },
+    {
+      "name": "R_body_cloth.png",
+      "support_texels": 41150,
+      "alpha_nonzero_texels": 64803,
+      "support_fraction": 0.6350014659815132
+    },
+    {
+      "name": "R_boob.png",
+      "support_texels": 4336,
+      "alpha_nonzero_texels": 14729,
+      "support_fraction": 0.2943852264240614
+    },
+    {
+      "name": "R_ear.png",
+      "support_texels": 874,
+      "alpha_nonzero_texels": 2197,
+      "support_fraction": 0.3978152025489304
+    },
+    {
+      "name": "R_ear_shadow_01.png",
+      "support_texels": 699,
+      "alpha_nonzero_texels": 1725,
+      "support_fraction": 0.4052173913043478
+    },
+    {
+      "name": "R_ear_shadow_02.png",
+      "support_texels": 694,
+      "alpha_nonzero_texels": 1153,
+      "support_fraction": 0.6019080659150043
+    },
+    {
+      "name": "R_eye_01_delight.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 643,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "R_eye_02_delight.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 1507,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "R_eye_close_01.png",
+      "support_texels": 500,
+      "alpha_nonzero_texels": 897,
+      "support_fraction": 0.5574136008918618
+    },
+    {
+      "name": "R_eye_close_02.png",
+      "support_texels": 598,
+      "alpha_nonzero_texels": 1536,
+      "support_fraction": 0.3893229166666667
+    },
+    {
+      "name": "R_eyeball.png",
+      "support_texels": 957,
+      "alpha_nonzero_texels": 1020,
+      "support_fraction": 0.9382352941176471
+    },
+    {
+      "name": "R_eyeball_highlight_01.png",
+      "support_texels": 12,
+      "alpha_nonzero_texels": 12,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "R_eyeball_highlight_01_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 76,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "R_eyeball_highlight_02.png",
+      "support_texels": 74,
+      "alpha_nonzero_texels": 76,
+      "support_fraction": 0.9736842105263158
+    },
+    {
+      "name": "R_eyeball_highlight_02_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 155,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "R_eyebg.png",
+      "support_texels": 1238,
+      "alpha_nonzero_texels": 1732,
+      "support_fraction": 0.7147806004618937
+    },
+    {
+      "name": "R_eyebrow_02.png",
+      "support_texels": 295,
+      "alpha_nonzero_texels": 370,
+      "support_fraction": 0.7972972972972973
+    },
+    {
+      "name": "R_eyebrow_03.png",
+      "support_texels": 568,
+      "alpha_nonzero_texels": 1352,
+      "support_fraction": 0.42011834319526625
+    },
+    {
+      "name": "R_eyebrow_04.png",
+      "support_texels": 187,
+      "alpha_nonzero_texels": 191,
+      "support_fraction": 0.9790575916230366
+    },
+    {
+      "name": "R_eyebrow_05.png",
+      "support_texels": 63,
+      "alpha_nonzero_texels": 113,
+      "support_fraction": 0.5575221238938053
+    },
+    {
+      "name": "R_eyebrow_idle_delight_surp.png",
+      "support_texels": 206,
+      "alpha_nonzero_texels": 209,
+      "support_fraction": 0.9856459330143541
+    },
+    {
+      "name": "R_eyebrow_no_angry_shy_worry.png",
+      "support_texels": 256,
+      "alpha_nonzero_texels": 276,
+      "support_fraction": 0.927536231884058
+    },
+    {
+      "name": "R_eyelid_down.png",
+      "support_texels": 1913,
+      "alpha_nonzero_texels": 2007,
+      "support_fraction": 0.9531639262580966
+    },
+    {
+      "name": "R_eyelid_up.png",
+      "support_texels": 2650,
+      "alpha_nonzero_texels": 3838,
+      "support_fraction": 0.6904637832204273
+    },
+    {
+      "name": "R_fin_01.png",
+      "support_texels": 1009,
+      "alpha_nonzero_texels": 1011,
+      "support_fraction": 0.9980217606330366
+    },
+    {
+      "name": "R_fin_02.png",
+      "support_texels": 1412,
+      "alpha_nonzero_texels": 2333,
+      "support_fraction": 0.6052293184740677
+    },
+    {
+      "name": "R_fin_03_01.png",
+      "support_texels": 975,
+      "alpha_nonzero_texels": 1103,
+      "support_fraction": 0.8839528558476881
+    },
+    {
+      "name": "R_fin_03_02.png",
+      "support_texels": 764,
+      "alpha_nonzero_texels": 1352,
+      "support_fraction": 0.5650887573964497
+    },
+    {
+      "name": "R_fin_04_01.png",
+      "support_texels": 776,
+      "alpha_nonzero_texels": 797,
+      "support_fraction": 0.973651191969887
+    },
+    {
+      "name": "R_fin_04_02.png",
+      "support_texels": 805,
+      "alpha_nonzero_texels": 1377,
+      "support_fraction": 0.5846042120551924
+    },
+    {
+      "name": "R_foot.png",
+      "support_texels": 12406,
+      "alpha_nonzero_texels": 15312,
+      "support_fraction": 0.81021421107628
+    },
+    {
+      "name": "R_hand.png",
+      "support_texels": 3755,
+      "alpha_nonzero_texels": 4729,
+      "support_fraction": 0.7940367942482555
+    },
+    {
+      "name": "R_leg_01.png",
+      "support_texels": 17662,
+      "alpha_nonzero_texels": 59528,
+      "support_fraction": 0.2967007122698562
+    },
+    {
+      "name": "R_leg_02.png",
+      "support_texels": 42667,
+      "alpha_nonzero_texels": 110985,
+      "support_fraction": 0.384439338649367
+    },
+    {
+      "name": "R_leg_shadow_01.png",
+      "support_texels": 9524,
+      "alpha_nonzero_texels": 18751,
+      "support_fraction": 0.5079195776225268
+    },
+    {
+      "name": "R_leg_shadow_02.png",
+      "support_texels": 5214,
+      "alpha_nonzero_texels": 14212,
+      "support_fraction": 0.3668730650154799
+    },
+    {
+      "name": "R_leggings.png",
+      "support_texels": 37318,
+      "alpha_nonzero_texels": 43015,
+      "support_fraction": 0.8675578286644194
+    },
+    {
+      "name": "R_leggings_lace.png",
+      "support_texels": 7504,
+      "alpha_nonzero_texels": 10740,
+      "support_fraction": 0.6986964618249535
+    },
+    {
+      "name": "body_01.png",
+      "support_texels": 9,
+      "alpha_nonzero_texels": 27263,
+      "support_fraction": 0.00033011774199464476
+    },
+    {
+      "name": "body_02.png",
+      "support_texels": 6015,
+      "alpha_nonzero_texels": 46639,
+      "support_fraction": 0.12896931752396062
+    },
+    {
+      "name": "body_cloth_01.png",
+      "support_texels": 38975,
+      "alpha_nonzero_texels": 138252,
+      "support_fraction": 0.28191273905621617
+    },
+    {
+      "name": "body_cloth_02.png",
+      "support_texels": 41171,
+      "alpha_nonzero_texels": 61514,
+      "support_fraction": 0.6692947946808857
+    },
+    {
+      "name": "body_cloth_02_lace_01.png",
+      "support_texels": 3441,
+      "alpha_nonzero_texels": 6083,
+      "support_fraction": 0.5656748314976163
+    },
+    {
+      "name": "body_cloth_02_lace_02.png",
+      "support_texels": 1776,
+      "alpha_nonzero_texels": 3430,
+      "support_fraction": 0.5177842565597668
+    },
+    {
+      "name": "bra_strap_01.png",
+      "support_texels": 1495,
+      "alpha_nonzero_texels": 1524,
+      "support_fraction": 0.9809711286089239
+    },
+    {
+      "name": "bra_strap_02.png",
+      "support_texels": 980,
+      "alpha_nonzero_texels": 1978,
+      "support_fraction": 0.4954499494438827
+    },
+    {
+      "name": "effect_01_01.png",
+      "support_texels": 18099,
+      "alpha_nonzero_texels": 29467,
+      "support_fraction": 0.6142125089082703
+    },
+    {
+      "name": "effect_02_01.png",
+      "support_texels": 10095,
+      "alpha_nonzero_texels": 10099,
+      "support_fraction": 0.9996039211803149
+    },
+    {
+      "name": "effect_02_02.png",
+      "support_texels": 5018,
+      "alpha_nonzero_texels": 6445,
+      "support_fraction": 0.778588052754073
+    },
+    {
+      "name": "face_highlight_01.png",
+      "support_texels": 33,
+      "alpha_nonzero_texels": 33,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "face_highlight_02.png",
+      "support_texels": 30,
+      "alpha_nonzero_texels": 30,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "hair_01.png",
+      "support_texels": 651,
+      "alpha_nonzero_texels": 5943,
+      "support_fraction": 0.10954063604240283
+    },
+    {
+      "name": "hair_02.png",
+      "support_texels": 886,
+      "alpha_nonzero_texels": 1195,
+      "support_fraction": 0.7414225941422594
+    },
+    {
+      "name": "hair_03_01.png",
+      "support_texels": 16771,
+      "alpha_nonzero_texels": 46644,
+      "support_fraction": 0.3595532115599005
+    },
+    {
+      "name": "hair_03_02.png",
+      "support_texels": 2051,
+      "alpha_nonzero_texels": 3207,
+      "support_fraction": 0.6395385095104459
+    },
+    {
+      "name": "hair_04_01.png",
+      "support_texels": 856,
+      "alpha_nonzero_texels": 1841,
+      "support_fraction": 0.46496469310157523
+    },
+    {
+      "name": "hair_04_02.png",
+      "support_texels": 1722,
+      "alpha_nonzero_texels": 5235,
+      "support_fraction": 0.3289398280802292
+    },
+    {
+      "name": "hair_04_03.png",
+      "support_texels": 1184,
+      "alpha_nonzero_texels": 5504,
+      "support_fraction": 0.21511627906976744
+    },
+    {
+      "name": "hair_04_04.png",
+      "support_texels": 9775,
+      "alpha_nonzero_texels": 15003,
+      "support_fraction": 0.6515363593947877
+    },
+    {
+      "name": "hair_05.png",
+      "support_texels": 1358,
+      "alpha_nonzero_texels": 3299,
+      "support_fraction": 0.41163989087602304
+    },
+    {
+      "name": "hair_06.png",
+      "support_texels": 6651,
+      "alpha_nonzero_texels": 9253,
+      "support_fraction": 0.7187939046795634
+    },
+    {
+      "name": "hair_07.png",
+      "support_texels": 6774,
+      "alpha_nonzero_texels": 13639,
+      "support_fraction": 0.4966639782975291
+    },
+    {
+      "name": "hair_08.png",
+      "support_texels": 4043,
+      "alpha_nonzero_texels": 7611,
+      "support_fraction": 0.5312048351070818
+    },
+    {
+      "name": "hair_09.png",
+      "support_texels": 623,
+      "alpha_nonzero_texels": 1493,
+      "support_fraction": 0.4172806430006698
+    },
+    {
+      "name": "hair_10.png",
+      "support_texels": 5696,
+      "alpha_nonzero_texels": 14687,
+      "support_fraction": 0.38782596854361
+    },
+    {
+      "name": "hair_11.png",
+      "support_texels": 2228,
+      "alpha_nonzero_texels": 4677,
+      "support_fraction": 0.47637374385289716
+    },
+    {
+      "name": "hair_12.png",
+      "support_texels": 5533,
+      "alpha_nonzero_texels": 8561,
+      "support_fraction": 0.6463030019857493
+    },
+    {
+      "name": "hair_13.png",
+      "support_texels": 12836,
+      "alpha_nonzero_texels": 16442,
+      "support_fraction": 0.780683615131979
+    },
+    {
+      "name": "hair_14.png",
+      "support_texels": 8165,
+      "alpha_nonzero_texels": 28152,
+      "support_fraction": 0.2900326797385621
+    },
+    {
+      "name": "hair_15.png",
+      "support_texels": 10048,
+      "alpha_nonzero_texels": 28841,
+      "support_fraction": 0.34839291286709895
+    },
+    {
+      "name": "hair_16.png",
+      "support_texels": 6514,
+      "alpha_nonzero_texels": 24809,
+      "support_fraction": 0.262566004272643
+    },
+    {
+      "name": "hair_17_01.png",
+      "support_texels": 1257,
+      "alpha_nonzero_texels": 4517,
+      "support_fraction": 0.27828204560549036
+    },
+    {
+      "name": "hair_17_02.png",
+      "support_texels": 658,
+      "alpha_nonzero_texels": 850,
+      "support_fraction": 0.7741176470588236
+    },
+    {
+      "name": "hair_18.png",
+      "support_texels": 5644,
+      "alpha_nonzero_texels": 27003,
+      "support_fraction": 0.20901381328000593
+    },
+    {
+      "name": "hair_19.png",
+      "support_texels": 33997,
+      "alpha_nonzero_texels": 144590,
+      "support_fraction": 0.23512691057472854
+    },
+    {
+      "name": "hair_20.png",
+      "support_texels": 10797,
+      "alpha_nonzero_texels": 31601,
+      "support_fraction": 0.34166640296193157
+    },
+    {
+      "name": "hair_21.png",
+      "support_texels": 8554,
+      "alpha_nonzero_texels": 20958,
+      "support_fraction": 0.4081496325985304
+    },
+    {
+      "name": "hair_22.png",
+      "support_texels": 12132,
+      "alpha_nonzero_texels": 60347,
+      "support_fraction": 0.20103733408454438
+    },
+    {
+      "name": "hair_23.png",
+      "support_texels": 3147,
+      "alpha_nonzero_texels": 14689,
+      "support_fraction": 0.21424194975832256
+    },
+    {
+      "name": "hair_24.png",
+      "support_texels": 49607,
+      "alpha_nonzero_texels": 140142,
+      "support_fraction": 0.35397668079519345
+    },
+    {
+      "name": "hair_25.png",
+      "support_texels": 6276,
+      "alpha_nonzero_texels": 30990,
+      "support_fraction": 0.20251694094869313
+    },
+    {
+      "name": "hair_26.png",
+      "support_texels": 2196,
+      "alpha_nonzero_texels": 2222,
+      "support_fraction": 0.9882988298829883
+    },
+    {
+      "name": "hair_flower.png",
+      "support_texels": 10074,
+      "alpha_nonzero_texels": 10312,
+      "support_fraction": 0.9769200930954228
+    },
+    {
+      "name": "hair_ribbon_01.png",
+      "support_texels": 1509,
+      "alpha_nonzero_texels": 1854,
+      "support_fraction": 0.813915857605178
+    },
+    {
+      "name": "hair_ribbon_02.png",
+      "support_texels": 1403,
+      "alpha_nonzero_texels": 2074,
+      "support_fraction": 0.6764705882352942
+    },
+    {
+      "name": "hair_ribbon_03.png",
+      "support_texels": 2004,
+      "alpha_nonzero_texels": 5770,
+      "support_fraction": 0.34731369150779895
+    },
+    {
+      "name": "hair_ribbon_04.png",
+      "support_texels": 2480,
+      "alpha_nonzero_texels": 4458,
+      "support_fraction": 0.5563032750112158
+    },
+    {
+      "name": "hair_shadow.png",
+      "support_texels": 5113,
+      "alpha_nonzero_texels": 19722,
+      "support_fraction": 0.25925362539296215
+    },
+    {
+      "name": "hairpin.png",
+      "support_texels": 1545,
+      "alpha_nonzero_texels": 1930,
+      "support_fraction": 0.8005181347150259
+    },
+    {
+      "name": "hairpin_shadow.png",
+      "support_texels": 817,
+      "alpha_nonzero_texels": 1531,
+      "support_fraction": 0.5336381450032658
+    },
+    {
+      "name": "head.png",
+      "support_texels": 18354,
+      "alpha_nonzero_texels": 37690,
+      "support_fraction": 0.48697267179623244
+    },
+    {
+      "name": "lace_01.png",
+      "support_texels": 9943,
+      "alpha_nonzero_texels": 14054,
+      "support_fraction": 0.7074854134054361
+    },
+    {
+      "name": "lace_02.png",
+      "support_texels": 13028,
+      "alpha_nonzero_texels": 23401,
+      "support_fraction": 0.5567283449425239
+    },
+    {
+      "name": "lace_03.png",
+      "support_texels": 8544,
+      "alpha_nonzero_texels": 13798,
+      "support_fraction": 0.6192201768372227
+    },
+    {
+      "name": "lace_04.png",
+      "support_texels": 8886,
+      "alpha_nonzero_texels": 14367,
+      "support_fraction": 0.6185007308415118
+    },
+    {
+      "name": "mouth.png",
+      "support_texels": 888,
+      "alpha_nonzero_texels": 895,
+      "support_fraction": 0.9921787709497206
+    },
+    {
+      "name": "mouth_angry.png",
+      "support_texels": 261,
+      "alpha_nonzero_texels": 293,
+      "support_fraction": 0.8907849829351536
+    },
+    {
+      "name": "mouth_delight.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 736,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "mouth_no.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 474,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "mouth_shy.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 306,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "mouth_smile.png",
+      "support_texels": 704,
+      "alpha_nonzero_texels": 754,
+      "support_fraction": 0.9336870026525199
+    },
+    {
+      "name": "mouth_surp.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 244,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "mouth_worry.png",
+      "support_texels": 0,
+      "alpha_nonzero_texels": 293,
+      "support_fraction": 0.0
+    },
+    {
+      "name": "neck.png",
+      "support_texels": 2141,
+      "alpha_nonzero_texels": 8202,
+      "support_fraction": 0.2610338941721531
+    },
+    {
+      "name": "neckling.png",
+      "support_texels": 921,
+      "alpha_nonzero_texels": 1510,
+      "support_fraction": 0.6099337748344371
+    },
+    {
+      "name": "neckt_collar.png",
+      "support_texels": 7838,
+      "alpha_nonzero_texels": 9335,
+      "support_fraction": 0.8396357793251206
+    },
+    {
+      "name": "nose.png",
+      "support_texels": 839,
+      "alpha_nonzero_texels": 866,
+      "support_fraction": 0.9688221709006929
+    },
+    {
+      "name": "skirt.png",
+      "support_texels": 77750,
+      "alpha_nonzero_texels": 148413,
+      "support_fraction": 0.5238759407868583
+    },
+    {
+      "name": "skirt_back.png",
+      "support_texels": 15724,
+      "alpha_nonzero_texels": 40208,
+      "support_fraction": 0.391066454436928
+    },
+    {
+      "name": "weapon.png",
+      "support_texels": 80602,
+      "alpha_nonzero_texels": 1163353,
+      "support_fraction": 0.06928421553904962
+    },
+    {
+      "name": "weapon_acc.png",
+      "support_texels": 4680,
+      "alpha_nonzero_texels": 4739,
+      "support_fraction": 0.9875501160582402
+    },
+    {
+      "name": "weapon_highlight_01.png",
+      "support_texels": 922,
+      "alpha_nonzero_texels": 927,
+      "support_fraction": 0.9946062567421791
+    },
+    {
+      "name": "weapon_highlight_02.png",
+      "support_texels": 160,
+      "alpha_nonzero_texels": 160,
+      "support_fraction": 1.0
+    },
+    {
+      "name": "weapon_highlight_03.png",
+      "support_texels": 191,
+      "alpha_nonzero_texels": 195,
+      "support_fraction": 0.9794871794871794
+    },
+    {
+      "name": "weapon_highlight_04.png",
+      "support_texels": 286,
+      "alpha_nonzero_texels": 376,
+      "support_fraction": 0.7606382978723404
+    },
+    {
+      "name": "weapon_highlight_05.png",
+      "support_texels": 1289,
+      "alpha_nonzero_texels": 2652,
+      "support_fraction": 0.48604826546003016
+    },
+    {
+      "name": "weapon_highlight_06.png",
+      "support_texels": 7988,
+      "alpha_nonzero_texels": 10339,
+      "support_fraction": 0.7726085694941484
+    },
+    {
+      "name": "weapon_highlight_07.png",
+      "support_texels": 6138,
+      "alpha_nonzero_texels": 7066,
+      "support_fraction": 0.8686668553637136
+    },
+    {
+      "name": "weapon_highlight_08.png",
+      "support_texels": 11353,
+      "alpha_nonzero_texels": 12627,
+      "support_fraction": 0.8991050922626118
+    },
+    {
+      "name": "weapon_highlight_09.png",
+      "support_texels": 5809,
+      "alpha_nonzero_texels": 7739,
+      "support_fraction": 0.750613774389456
+    },
+    {
+      "name": "weapon_highlight_10.png",
+      "support_texels": 907,
+      "alpha_nonzero_texels": 916,
+      "support_fraction": 0.990174672489083
+    },
+    {
+      "name": "weapon_highlight_11.png",
+      "support_texels": 1461,
+      "alpha_nonzero_texels": 1563,
+      "support_fraction": 0.9347408829174664
+    },
+    {
+      "name": "weapon_highlight_12.png",
+      "support_texels": 3975,
+      "alpha_nonzero_texels": 6816,
+      "support_fraction": 0.5831866197183099
+    },
+    {
+      "name": "weapon_ribbon_01.png",
+      "support_texels": 10031,
+      "alpha_nonzero_texels": 11765,
+      "support_fraction": 0.8526136846578836
+    },
+    {
+      "name": "weapon_ribbon_02.png",
+      "support_texels": 45266,
+      "alpha_nonzero_texels": 78838,
+      "support_fraction": 0.5741647428904842
+    },
+    {
+      "name": "weapon_ribbon_03.png",
+      "support_texels": 15697,
+      "alpha_nonzero_texels": 130065,
+      "support_fraction": 0.12068581094068351
+    },
+    {
+      "name": "weapon_ribbon_04.png",
+      "support_texels": 6129,
+      "alpha_nonzero_texels": 8852,
+      "support_fraction": 0.6923859014911884
+    },
+    {
+      "name": "weapon_ribbon_05.png",
+      "support_texels": 47558,
+      "alpha_nonzero_texels": 78762,
+      "support_fraction": 0.6038191005814987
+    },
+    {
+      "name": "weapon_ribbon_06.png",
+      "support_texels": 12257,
+      "alpha_nonzero_texels": 24213,
+      "support_fraction": 0.5062156692685748
+    },
+    {
+      "name": "weapon_shadow.png",
+      "support_texels": 4380,
+      "alpha_nonzero_texels": 11655,
+      "support_fraction": 0.3758043758043758
+    }
+  ]
+}

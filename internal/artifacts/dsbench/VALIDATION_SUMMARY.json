@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "passed": true,
+  "backend": "osmesa",
+  "environment": "Ubuntu 24.04.4 LTS WSL2 x86_64, Python 3.12.3",
+  "scores": {
+    "reference": 1.0,
+    "grok": 0.9787561425433899,
+    "single_observation": 0.8149769750847228,
+    "noop": 3.693205741228667e-11
+  },
+  "references": "Generated at grading time from private S1 with the accepted Linux renderer.",
+  "isolated_full_entry_wall_seconds": 20.9,
+  "isolated_full_entry_acceptance": true
+}

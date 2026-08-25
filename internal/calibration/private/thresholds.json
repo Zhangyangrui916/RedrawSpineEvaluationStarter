@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "task": "continuous-alpha-real-art-v2",
+  "case_ids": [
+    "real_art_continuous_run8"
+  ],
+  "coefficient_energy_threshold": 0.0001,
+  "overall_threshold": 0.9,
+  "score_policy": "candidate=S1 outside support; noop=S1 outside support; normalized hidden render-space L1",
+  "calibration": {
+    "public_run12_correct_pcg": 0.9738354245267979,
+    "public_run12_single_observation": 0.8282708321280864,
+    "public_run12_claude_binary_topmost": 0.6078536502842778,
+    "hidden_run8_correct_pcg": 0.9791118935269605,
+    "hidden_run8_single_observation": 0.8156453476391875,
+    "reference": 1.0,
+    "noop": 0.0
+  }
+}
